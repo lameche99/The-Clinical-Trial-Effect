@@ -19,7 +19,7 @@ def cleanCat(raw: pd.DataFrame):
 def main():
     data_raw = pd.read_excel(BIOPHARM, sheet_name='catalysts', header=None)
     data_clean = cleanCat(raw=data_raw)
-    data_clean.to_sql('catalysts', ENGINE, if_exists='replace')
+    data_clean.to_sql('catalysts', ENGINE, if_exists='replace', index=False)
 
 
 
