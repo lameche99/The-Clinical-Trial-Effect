@@ -13,6 +13,7 @@ def cleanCat(raw: pd.DataFrame):
     clean['ticker'] = clean.ticker.str.split('Add', expand=True)[0]
     clean['date'] = pd.to_datetime(clean.date.str.removesuffix(' ET'),
                                             format='%d/%m/%Y')
+    clean.dropna(axis=0, inplace=True)
     return clean
 
 
