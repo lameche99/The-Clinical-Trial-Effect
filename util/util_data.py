@@ -1,5 +1,5 @@
 import pandas as pd
-import sqlite3, re
+import re, random
 
 def cleanCat(raw: pd.DataFrame):
     """
@@ -55,3 +55,32 @@ def makeRegex(wrds: list, neg: bool = False):
         return regex
     regex = [f"\b*\w*{i}\w*" for i in wrds]
     return regex
+
+
+def splitData(df: pd.DataFrame, train_size: float = 0.8):
+    """
+    This function splits a dataset into train and test
+    according to train_size
+    :param df: pd.DataFrame - dataframe
+    :param train_size: float - size of train dataset, default 80%
+    :return: tuple(pd.DataFrame) - train and test sets
+    """
+    train_idx = trainIdx(train_size=train_size, length=df.shape[0])
+    train = df.iloc[train_idx].copy()
+    test = df.iloc[~df.index.isin(train_idx)].copy()
+    return train, test
+
+
+def trainIdx(train_size: float, length: int, low: int = 0):
+    """
+    This function returns an array of random integers for train
+    test splitting
+    :param train_size: float - train set size as a percentage of total size
+    :param length: float - total size
+    :param low: int - lower bound for integers, default 0
+    :return: np.array(int) - random indices
+    """
+    rng = range(low, length)
+    size = int(train_size * length)
+    idxs = random.sample(population=rng, k=size)
+    return idxs

@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from transformers import TextClassificationPipeline
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
@@ -32,12 +33,12 @@ def extract_keywords(doc: str,
     return keywords
 
 
-def class_keywords(classifier, kwrds: pd.Series):
+def class_keywords(classifier: TextClassificationPipeline, kwrds: pd.Series):
     """
     This function runs a classifier to retrieve sentiment
     scores for a list of keywords and returns a dataframe
     with the corresponding keyword score pairing
-    :param classifier: some datatype - LLM classifier
+    :param classifier: transformers.TextClassificationPipeline - LLM classifier
     :param kwrds: pd.Series - series of keywords per catalyst
     :return: pd.DataFrame - dataframe of keyword-sentiment score pair
     """
