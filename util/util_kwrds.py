@@ -1,25 +1,8 @@
 import pandas as pd
 import numpy as np
-import sqlite3
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
-
-def cleanCat(raw: pd.DataFrame):
-    """
-    This function cleans a raw excel file
-    of clinical trial announcements
-    :param raw: pd.DataFrame - raw input table
-    :return: pd.DataFrame - clean catalyst data
-    """
-    clean = raw.loc[:, raw.columns[:5]].copy()
-    clean.columns = ['ticker', 'disease', 'stage', 'date', 'catalyst']
-    clean['ticker'] = clean.ticker.str.split('Add', expand=True)[0]
-    clean['date'] = pd.to_datetime(clean.date.str.removesuffix(' ET'),
-                                            format='%d/%m/%Y')
-    clean.dropna(axis=0, inplace=True)
-    return clean
-
 
 def extract_keywords(doc: str,
                      stop_words: list,
@@ -64,37 +47,3 @@ def class_keywords(classifier, kwrds: pd.Series):
     kw_df['keywords'] = flat_kw # add keywords
     kw_df = kw_df.sort_values(['score'], ascending=False)
     return kw_df
-
-
-def special_encode(x: str, bull_words: list, bear_words: list):
-    """
-    This function labels a piece of text according to the keywords
-    passed in.
-    :param x: str - text
-    :param bull_words: list - list of keywords for dovish sentiment
-    :param bear_words: list - list of keywords for hawkish sentiment
-    :return: int - encoding label for positive, negative or neutral sentiment
-    """
-    tmp_x = x.lower()
-    # BULLISH
-    if re.findall(pattern="|".join(bull_words), string=tmp_x):
-        return 1
-    # BEARISH
-    elif re.findall(pattern="|".join(bear_words), string=tmp_x):
-        return -1
-    # NEUTRAL
-    else:
-        return 0
-
-
-def main():
-    data_raw = pd.read_excel(BIOPHARM, sheet_name='catalysts', header=None)
-    data_clean = cleanCat(raw=data_raw)
-    data_clean.to_sql('catalysts', ENGINE, if_exists='replace', index=False)
-
-
-
-if __name__ == '__main__':
-    ENGINE = sqlite3.connect('./src/data.db')
-    BIOPHARM = './src/bio-data.xlsm'
-    main()
