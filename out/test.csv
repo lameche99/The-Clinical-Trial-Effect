@@ -1,0 +1,784 @@
+ticker,disease,stage,date,catalyst,label
+SPPI,Non-Hodgkin’s lymphoma,Approved,2009-09-04 00:00:00,"Approved September 4, 2009.",1
+SUPN,Epilepsy,Approved,2012-10-22 00:00:00,"Approved October 22, 2012.",1
+ASRT,Hot flashes,CRL,2013-05-31 00:00:00,"CRL issued May 31, 2013.",0
+SUPN,Epilepsy,Approved,2013-08-19 00:00:00,"Approved Aug 19, 2013.",1
+ASRT,Peripheral T-Cell Lymphoma cancer,Approved,2014-07-07 00:00:00,"Approved July 7, 2014.",1
+NKTR,Cancer - Metastatic Breast Cancer,Phase 3,2015-03-17 00:00:00,"Phase 3 topline data mid March 17, 2015 did not reach primary endpoint.",1
+AMGN,Chronic Heart Failure,Approved,2015-04-15 00:00:00,"Approved April 15, 2015.",1
+VRTX,Cystic fibrosis (CF) ages 12 and older who have two copies of the F508del mutation,Approved,2015-07-02 00:00:00,"Approved July 2, 2015.",1
+COLL,"Management of pain severe enough to require daily, around-the-clock, long-term opioid treatment for which alternative treatment options are inadequate",Approved,2015-10-26 00:00:00,"Approved October 26, 2015.",1
+EXEL,BRAF V600 Mutation-Positive Advanced Melanoma - Cancer,Approved,2015-11-10 00:00:00,"Approved November 10, 2015.",1
+OTIC,Ear Tube Placement Surgery,Approved,2015-12-11 00:00:00,"Approved December 11, 2015.",1
+CHRS,Rheumatoid arthritis,Phase 3,2016-01-11 00:00:00,"Phase 3 data released January 2016. Endpoints met. However, commercialization not possible in US before 2029 due to patent issues",0
+JAZZ,Dravet Syndrome and Lennox-Gastaut syndrome,Phase 3,2016-03-14 00:00:00,"Top line Phase 3 data released March 14, 2016 met primary endpoint.",0
+SPPI,Conditioning treatment prior to autologous stem cell transplant for patients with multiple myeloma,Approved,2016-03-15 00:00:00,Approved March 15 2016.,1
+AVDL,Hypotension,Approved,2016-05-02 00:00:00,"Approved May 2, 2016.",1
+VNDA,Maintenance treatment of schizophrenia in adults,Approved,2016-05-26 00:00:00,"Approved May 26, 2016.",1
+CLVS,Mutant EGFR T790M-positive lung cancer,CRL,2016-06-28 00:00:00,"CRL June 28, 2016. Phase 3 TIGER-3 also terminated.",-1
+GSK,"Prevention of chemotherapy induced nausea and vomiting, or CINV in HEC patients",Approved,2016-09-02 00:00:00,"Approved September 2, 2015.",1
+GSK,"Prevention of chemotherapy induced nausea and vomiting, or CINV",Approved,2016-09-02 00:00:00,"Approved September 2, 2015.",1
+PLXP,Mild infections of diabetic foot ulcers,Phase 3,2016-10-25 00:00:00,"Phase 3 top-line data did not meet endpoints - October 25, 2016 - TICKER CHANGED FROM DPRX FOLLOWING MERGER",1
+COLL,Painful diabetic neuropathy (PDN),Phase 2b,2016-12-13 00:00:00,"Phase 2b data released December 13, 2016 - primary endpoints not met.",0
+NBIX,Tourette syndrome - adults,Phase 2,2017-01-18 00:00:00,"Phase 2 data released January 18, 2017 did not meet primary endpoint.",1
+CDTX,Vulvovaginal candidiasis (VVC),Phase 2,2017-02-21 00:00:00,"Phase 2 data released February 21, 2017 - efficacy not evident, Development to be discontinued.",-1
+PTCT,Nonsense mutation cystic fibrosis,Phase 3,2017-03-02 00:00:00,"Phase 3 data released March 2, 2017 - endpoints not met. Development to be discontinued.",-1
+MRK,Relapsed or Refractory Classical Hodgkin Lymphoma,Approved,2017-03-14 00:00:00,"Approval announced March 14, 2017.",1
+JAZZ,Excessive sleepiness associated with obstructive sleep apnea,Phase 3,2017-03-20 00:00:00,"Phase 3 data released March 20, 2017 - primary endpoints met.",0
+PFE,Metastatic Merkel cell carcinoma,Approved,2017-03-23 00:00:00,"Priority review announced November 29, 2016. Approval announced March 23, 2017.",1
+PFE,"HR+, HER2- Metastatic Breast Cancer",Approved,2017-03-31 00:00:00,"sNDA acceptance announced December 21, 2016. Approval announced March 31, 2017.",1
+AZN,Epidermal growth factor receptor (EGFR) T790M mutation-positive non-small cell lung cancer (NSCLC),Approved,2017-03-31 00:00:00,"Approval announced March 31, 2017.",1
+NBIX,Tardive dyskinesia,Approved,2017-04-11 00:00:00,"Approved April 11, 2017.",1
+MRK,Biosimilar candidate of Remicade,Approved,2017-04-21 00:00:00,"BLA acceptance announced May 23, 2016 by partner Samsung Bioepis. Approval annuonced April 21, 2017.",1
+XOMA,Hyperprolactinemia,Phase 2,2017-04-24 00:00:00,"Phase 2 proof-of-concept results released April 24, 2017.",0
+REGN,High low-density lipoprotein (LDL) cholesterol,Approved,2017-04-25 00:00:00,"sBLA Approval announced April 25, 2017.",1
+MRK,Microsatellite Instability-High Cancer,Approved,2017-05-23 00:00:00,"PDUFA date March 8, 2017 extended to June 9, 2017 due to submission of extra data. Approved May 23, 2017.",1
+NRBO,Homozygous Familial Hypercholesterolemia (HoFH),Phase 2b,2017-06-28 00:00:00,"Phase 2b data released June 28, 2017 - primary endpoint met.",0
+ABBV,Second-line Chronic graft-versus-host disease (GVHD),Approved,2017-08-02 00:00:00,"Approval announced August 2, 2017.",1
+JNJ,Second-line Chronic graft-versus-host disease (GVHD),Approved,2017-08-02 00:00:00,"Approval announced August 2, 2017.",1
+ZYNE,Adult Epilepsy Patients with Refractory Focal Seizures,Phase 2,2017-08-07 00:00:00,"Phase 2 data released August 7, 2017 - endpoints not met.",0
+ISEE,Wet age-related macular degeneration (Wet-AMD),Phase 3,2017-08-14 00:00:00,"Phase 3 data released December 12, 2016 - primary endpoint not met. Data from third trial released August 14, 2017- primary endpoint not met.",0
+ZYNE,Osteoarthritis,Phase 2,2017-08-14 00:00:00,"Phase 2 data released August 14, 2017 - primary endpoint not met. However, company still intends to initiate Phase 3 trial pending discussions with FDA.",0
+NVO,Type 2 diabetes,Approved,2017-08-25 00:00:00,"Approval announced August 25, 2017.",1
+NVS,Complicated urinary tract infections (cUTI),Approved,2017-08-29 00:00:00,"Approved August 29, 2017.",1
+NVS,Relapsed/Refractory B-Cell Acute lymphoblastic leukemia,Approved,2017-08-30 00:00:00,"PDUFA date under priority review announced March 29, 2017. Approval announced early - August 30, 2017.",1
+FOLD,Epidermolysis Bullosa (EB),Phase 3,2017-09-13 00:00:00,"Phase 3 top-line data released September 13, 2017 - endpoints not met.",0
+JNJ,Rheumatoid arthritis,CRL,2017-09-22 00:00:00,"CRL issued September 22, 2017. Advisory Committee Meeting August 2, 2017 voted 12-1 against that safety data is adequate to support approval. 13-0 in favor of efficacy.",1
+ABBV,Forehead lines,Approved,2017-10-03 00:00:00,"Approval (third indication) announced October 3, 2017.",1
+RDHL,IBS-D,Phase 2,2017-10-03 00:00:00,"Phase 2 top-line data released October 3, 2017 - primary endpoint met (borderline) - p=0.05.",0
+VTRS,Multiple sclerosis (MS) - Generic for Copaxone,Approved,2017-10-04 00:00:00,"Approval announced October 4, 2017.",1
+NBIX,Tardive dyskinesia,Approved,2017-10-05 00:00:00,"Approval for sNDA 80 mg capsules announced October 5, 2017.",1
+GSK,Shingles,Approved,2017-10-20 00:00:00,"Approval announced October 20, 2017.",1
+BMY,Relapsing Multiple Sclerosis,Phase 3,2017-10-28 00:00:00,"Phase 3 data due released Feb 17, 2017 - primary endpoint met, disability endpoint not met. Full data released October 27, 2017 at ECTRIMS meeting.",1
+MNOV,Progressive multiple sclerosis (progressive MS),Phase 2b,2017-10-28 00:00:00,"Phase 2b top-line data released October 28, 2017 at Joint ECTRIMS – ACTRIMS meeting. Primary endpoint met.",1
+KMDA,Pediatric patients newly diagnosed with type 1 diabetes,Phase 2,2017-11-01 00:00:00,"Phase 2 data released November 3, 2017. No significant treatment effect noted overall.",1
+COLL,Severe pain,Approved,2017-11-07 00:00:00,"Approval announced November 7, 2017.",1
+AKBA,Iron deficiency anemia in non-dialysis dependent CKD patients,Approved,2017-11-07 00:00:00,"sNDA FDA Approval announced November 7, 2017.",1
+ABBV,Maintenance Treatment of Schizophrenia,Approved,2017-11-13 00:00:00,"Approval announced November 13, 2017.",1
+PFE,Renal cell carcinoma (RCC),Approved,2017-11-16 00:00:00,"Approval announced 16 November, 2017.",1
+CYTK,Amyotrophic lateral sclerosis (ALS),Phase 3,2017-11-21 00:00:00,"Phase 3 data released November 21, 2017 - primary endpoint not met.",0
+NVO,Type 2 diabetes,Approved,2017-12-05 00:00:00,"Approval announced December 5, 2017.",1
+FBIO,AL amyloidosis,Phase 1/2,2017-12-11 00:00:00,Phase 1/2 data at ASH December showed 67% response rate.,1
+GLYC,Acute myeloid leukemia (AML) newly diagnosed and refractory - cancer,Phase 1/2,2017-12-12 00:00:00,Phase 3 trial to be initiated mid-2018. Phase 1/2 data released at ASH 2017 showed clinical remission (CR+CRi) was 43%. Median overall survival was 9.4 months.,1
+GSK,Eosinophilic Granulomatosis with Polyangiitis (EGPA),Approved,2017-12-12 00:00:00,"Approval announced December 12, 2017.",1
+ACRS,Seborrheic keratosis (SK),Approved,2017-12-15 00:00:00,"Approval announced December 15, 2017.",1
+INVA,Increase blood pressure in adults with septic or other distributive shock,Approved,2017-12-21 00:00:00,"Approval announced December 21, 2017.",1
+MRK,Breast cancer,Approved,2018-01-12 00:00:00,"Approval announced January 12, 2018.",1
+AZN,Breast cancer,Approved,2018-01-12 00:00:00,"Approval announced January 12, 2018.",1
+TEVA,Acute Promyelocytic Leukemia,Approved,2018-01-15 00:00:00,"Approved January 15, 2018.",1
+CERS,Chronic anemia in thalassemia patients,Phase 3,2018-01-23 00:00:00,"Phase 3 trial met endpoints - January 23, 2018. CE mark submission due 2H 2018.",0
+AFMD,Hodgkin Lymphoma - Cancer,Phase 1b,2018-02-01 00:00:00,"Phase 1b preliminary data released February 1, 2018 - Objective response rate (ORR) of 89% (8/9), 4/9 CRs and 4/9 PRs. 3-month data due mid-2018.",0
+JNJ,Non-metastatic castration-resistant prostate cancer (CRPC),Approved,2018-02-14 00:00:00,"Approval announced February 14, 2018.",1
+ZVRA,Acute pain,Approved,2018-02-23 00:00:00,"CRL issued June 13, 2016. Resubmitted, and issued FDA Approval February 23, 2018.",1
+CLVS,Ovarian cancer patients with a BRCA-like mutation,Approved,2018-04-06 00:00:00,"Approval announced April 6, 2018.",1
+MRK,Cancer - first-line metastatic melanoma,Phase 3,2018-04-06 00:00:00,"Phase 3 trial did not meet primary endpoint - noted April 6, 2018.",1
+RIGL,Immune Thrombocytopenic Purpura (ITP),Approved,2018-04-17 00:00:00,"Approved April 17, 2018.",1
+PRTA,Previously-treated patients with AL amyloidosis and persistent cardiac dysfunction,Phase 2b,2018-04-23 00:00:00,"Phase 2b trial did not meet primary endpoint - April 23, 2018.",1
+NVS,Cancer - Diffuse Large B-Cell Lymphoma (DLBCL),Approved,2018-05-01 00:00:00,"Approval announced May 1, 2018.",1
+EXEL,Third-line advanced or metastatic colorectal cancer,Phase 3,2018-05-10 00:00:00,"Phase 3 data released May 10, 2018. Primary endpoint not met.",0
+JNJ,Alzheimer’s disease,Phase 2,2018-05-18 00:00:00,"Announced May 18, 2018 that dosing will be stopped.",-1
+ABIO,Chronic Heart Failure,Phase 2b,2018-05-27 00:00:00,"Oral presentation of data May 27, 2018.",1
+PPBT,Osteoarthritis and Hypertension,Approved,2018-05-31 00:00:00,"Approval announced May 31, 2018.",1
+VXRT,Condyloma,Phase 2,2018-06-04 00:00:00,Phase 2 trial did not meet primary endpoint.,1
+AZN,Early Alzheimer's disease,Phase 3,2018-06-11 00:00:00,Announced discontinuation of trial due to futility.,-1
+MRK,Cervical cancer,Approved,2018-06-12 00:00:00,"Approval announced June 12, 2018.",1
+MOR,Chronic Lymphocytic Leukemia,Phase 2,2018-06-15 00:00:00,Phase 2 presentation at EHA June 2018. ORR 82%. CR 9%.,1
+ARGX,Pemphigus foliaceous and vulgaris (PV),Phase 2,2018-06-20 00:00:00,"Phase 2 interim data released June 20, 2018, disease control observed in 4/6 patients.",1
+MACK,Cancer - front line pancreatic cancer,Phase 2,2018-06-25 00:00:00,"Phase 2 data released June 25, 2018 - endpoints not met.",0
+ALKS,Schizophrenia,Approved,2018-07-02 00:00:00,"FDA approval announced July 2, 2018.",1
+ABBV,Diffuse large B-cell lymphoma (DLBCL),Phase 3,2018-07-11 00:00:00,"Phase 3 trial did not meet primary endpoint - noted July 11, 2018.",1
+BMY,(dMMR) or microsatellite instability high (MSI-H) metastatic colorectal cancer (CRC),Approved,2018-07-11 00:00:00,"Approval announced July 11, 2018.",1
+MRSN,HER2 - breast cancer,Phase 1,2018-07-19 00:00:00,"Phase 1 partial clinical hold due to patient death announced July 19, 2018.",0
+TNXP,Post-traumatic stress disorder (PTSD),Phase 3,2018-07-27 00:00:00,"Phase 3 trial halted due to insufficient efficacy - July 27, 2018.",-1
+PTGX,Ulcerative colitis,Phase 2b,2018-08-06 00:00:00,"Phase 2b trial discontinued following interim analysis - March 26, 2018. However, company noted August 6, 2018 that human error by CRO contributed to this decision. Will meet with FDA 2H to discuss future development.",1
+SNY,Familial Amyloidotic Polyneuropathy (FAP) in Patients with ATTR,Approved,2018-08-10 00:00:00,"FDA Approval announced August 10, 2018.",1
+AQST,Lennox-Gastaut Syndrome,Approved,2018-08-31 00:00:00,"Tentative approval announced August 31, 2018.",1
+GSK,Chronic obstructive pulmonary disease (COPD) with an eosinophilic phenotype,CRL,2018-09-07 00:00:00,"CRL issued September 7, 2018.",0
+AZN,Cancer - leukaemia,Approved,2018-09-13 00:00:00,"Approval announced September 13, 2018.",1
+ATOS,Male breast cancer and Gynecomastia,Phase 1,2018-09-13 00:00:00,"Phase 1 preliminary data September 13, 2018 noted drug met safety and tolerability objectives.",1
+INSM,Nontuberculous mycobacterial (NTM) lung disease,Approved,2018-09-28 00:00:00,"FDA Approval announced September 28, 2018.",1
+LLY,Migraine prevention,Approved,2018-09-28 00:00:00,"FDA approval announced September 27, 2018.",1
+SNY,Cutaneous squamous cell carcinoma,Approved,2018-09-28 00:00:00,"FDA Approval announced September 28, 2018.",1
+PFE,BRCA-mutated breast cancer,Approved,2018-10-16 00:00:00,"FDA Approval announced October 16, 2018.",1
+EIGR,Secondary lymphedema,Phase 2,2018-10-16 00:00:00,"Phase 2 data released October 16, 2018 did not meet endpoints.",1
+XOMA,CV risk reduction,CRL,2018-10-18 00:00:00,"CRL announced October 18, 2018.",0
+SNY,Asthma,Approved,2018-10-19 00:00:00,"FDA approval announced October 19, 2018.",1
+REGN,Asthma,Approved,2018-10-19 00:00:00,"FDA approval announced October 19, 2018.",1
+GSK,Rheumatoid Arthritis,Phase 2b,2018-10-21 00:00:00,"Phase 2b released October 21, 2018 did not meet primary endpoint.",1
+JAZZ,Pediatric narcolepsy patients with cataplexy,Approved,2018-10-26 00:00:00,"FDA Approval announced October 26, 2018.",1
+TXMD,Moderate to severe vasomotor symptoms (VMS),Approved,2018-10-29 00:00:00,"FDA approval announced October 29, 2018.",1
+JNJ,Type 2 diabetes,Approved,2018-10-30 00:00:00,"FDA Approval announced October 30, 2018.",1
+TAK,Frontline CD30-positive mature T-cell lymphomas - cancer,Approved,2018-11-16 00:00:00,"FDA Approval announced November 16, 2018.",1
+TEVA,Herceptin biosimilar,Approved,2018-12-14 00:00:00,"FDA approval announced December 14, 2018.",1
+SUPN,Epilepsy,Approved,2018-12-14 00:00:00,"FDA approval announced December 14, 2018 to expand label to include monotherapy treatment.",1
+AZN,Factor Xa inhibitor reversal agent,Approved,2018-12-31 00:00:00,"Prior Approval Supplement (PAS) FDA Approval announced December 31, 2018.",1
+TAK,Advanced hepatocellular cancer (HCC),Approved,2019-01-14 00:00:00,"FDA Approval announced January 14, 2019.",1
+COCP,Hepatitis C,Phase 2a,2019-01-22 00:00:00,"Phase 2a initial data released January 22, 2019. SVR12 66%.",0
+ALKS,Major depressive disorder,CRL,2019-02-01 00:00:00,"CRL announced February 1, 2019.",0
+OPK,Benign Prostatic Hyperplasia (BPH),Phase 2b,2019-02-01 00:00:00,"Phase 2b trial suspension announced January 31, 2019.",0
+GILD,Nonalcoholic steatohepatitis (NASH),Phase 3,2019-02-11 00:00:00,"Phase 3 trial did not meet primary endpoint - February 11, 2019.",1
+TYME,Prostate cancer,Phase 2,2019-02-14 00:00:00,"Phase 2 updated data February 14, 2019. Median PSA doubling-time improved by 34%.",1
+MRK,Melanoma,Approved,2019-02-19 00:00:00,"FDA Approval announced February 19, 2019.",1
+OPNT,Bulimia Nervosa,Phase 2,2019-02-21 00:00:00,"Phase 2 data released February 21, 2019. Endpoints not met.",0
+ADMP,Erectile dysfunction,NDA Filing,2019-02-26 00:00:00,"Refusal to file letter received February 26, 2019.",0
+JNJ,Plaque psoriasis,Approved,2019-02-27 00:00:00,"Approval announced February 27, 2019.",1
+BMY,Triple-negative breast cancer,Approved,2019-03-08 00:00:00,"FDA Approval announced March 8, 2019.",1
+RHHBY,Squamous non-small cell lung cancer (NSCLC),Approved,2019-03-18 00:00:00,"FDA approval announced March 18, 2019.",1
+BIIB,Alzheimer’s disease,Phase 3,2019-03-21 00:00:00,Phase 3 trial discontinued due to futility - unlikely to meet primary endpoint upon completion.,1
+TCON,Angiosarcoma cancer,Phase 3,2019-04-12 00:00:00,"Phase 3 interim analysis April 12, 2019 noted trial to be terminated due to futility.",-1
+AXSM,Smoking cessation,Phase 2,2019-04-15 00:00:00,"Phase 2 top-line data met primary endpoint - April 15, 2019.",0
+PFE,Renal cell carcinoma,Approved,2019-04-22 00:00:00,"FDA approval announced April 22, 2019.",1
+BHC,Psoriasis,Approved,2019-04-25 00:00:00,"FDA approval announced April 25, 2019.",1
+SNY,Cardiovascular events,Approved,2019-04-26 00:00:00,"FDA approval announced April 26, 2019.",1
+SNY,Dengue,Approved,2019-05-01 00:00:00,"FDA approval announced May 1, 2019.",1
+AGIO,Frontline AML with IDH1 mutation,Approved,2019-05-02 00:00:00,"FDA Approval announced May 2, 2019.",1
+NERV,Major Depressive Disorder,Phase 2b,2019-05-13 00:00:00,"Phase 2b data May 13, 2019 noted p-value was 0.083.",0
+REGN,Nonproliferative Diabetic Retinopathy,Approved,2019-05-13 00:00:00,"FDA Approval announced May 13, 2019.",1
+ABBV,Chronic Lymphocytic Leukemia,Approved,2019-05-15 00:00:00,"FDA approval announced May 15, 2019.",1
+MRK,Triple negative breast cancer (TNBC),Phase 3,2019-05-20 00:00:00,"Phase 3 data May 20, 2019 did not meet primary endpoint.",1
+BMY,Relapsed or Refractory Follicular Lymphoma,Approved,2019-05-28 00:00:00,"FDA Approval announced May 28, 2019.",1
+IOVA,Cervical cancer,Phase 2,2019-05-31 00:00:00,"Data released May 31, 2019 noted ORR 44%; CR 11%.",0
+RHHBY,Triple-negative breast cancer,Phase 3,2019-06-04 00:00:00,"Phase 3 OS update at ASCO June 4, 2019 - median OS=21.0 vs 18.7 months; HR=0.86.",0
+INVA,Hereditary Hemochromatosis,Phase 2,2019-06-06 00:00:00,"Phase 2 data met primary endpoint - June 6, 2019.",0
+ABBV,Upper limb spasticity,Approved,2019-06-21 00:00:00,"FDA Approval announced June 21, 2019.",1
+VRTX,Cystic fibrosis - Two Copies of the F508del Mutation,Approved,2019-06-21 00:00:00,"Label expanded to now include all patients over 6 years old - June 21, 2019.",0
+NERV,Primary insomnia,Phase 2b,2019-06-24 00:00:00,"Phase 2b data June 24, 2019 met primary endpoint.",0
+VRCA,Common warts,Phase 2,2019-06-26 00:00:00,"Phase 2 data noted 51% of patients noted complete clearance of warts - June 26, 2019.",0
+BLCM,Adjunct T-cell therapy administered after allogeneic HSCT - (hematopoietic stem cell transplantation) - cancer,Phase 1/2,2019-07-08 00:00:00,"Phase 2 pediatric top-line data met primary endpoint of event free survival - July 8, 2019.",0
+PFE,Amyotrophic lateral sclerosis (ALS),CRL,2019-07-19 00:00:00,"CRL issued July 19, 2019.",0
+SAGE,Bipolar depression,Phase 2,2019-07-24 00:00:00,"Phase 2 Part A data July 24, 2019 noted MADRS score of 15.5 points at Day 15 (n=23; p<0.0001) - secondary endpoint.",0
+BIIB,Idiopathic pulmonary fibrosis (IPF),Phase 2b,2019-08-31 00:00:00,Phase 2b trial discontinued August 2019 due to safety concerns.,-1
+ARDS,Pseudomonas aeruginosa,Phase 2,2019-09-03 00:00:00,"Phase 2 trial did not met primary endpoint - September 3, 2019.",0
+ARDX,Hyperphosphatemia - adjunctive therapy to phosphate binders,Phase 3,2019-09-03 00:00:00,Phase 3 trial met primary endpoint.,0
+ARDX,Constipation-predominant irritable bowel syndrome (IBS-C),Approved,2019-09-12 00:00:00,"FDA approval announced September 12, 2019.",1
+AMGN,Acute lymphoblastic leukemia (ALL) - pediatric,Phase 3,2019-09-24 00:00:00,Phase 3 enrolment terminated due to treatment benefit over chemo. Primary endpoint of event-free survival met.,1
+RHHBY,Granulomatosis with polyangiitis (GPA) / microscopic polyangiitis (MPA),Approved,2019-09-27 00:00:00,"FDA Approval announced September 27, 2019.",1
+LLY,Pancreatic ductal adenocarcinoma (PDAC),Phase 3,2019-10-16 00:00:00,"Phase 3 top-line data did not meet primary endpoint - October 16, 2019.",1
+AZN,atypical Hemolytic Uremic Syndrome (aHUS),Approved,2019-10-18 00:00:00,"FDA Approval announced October 18, 2019.",1
+VYNE,Acne,Approved,2019-10-18 00:00:00,"FDA Approval announced October 18, 2019.",1
+ETON,Injectable hospital product,Approved,2019-10-22 00:00:00,"FDA Approval announced October 22, 2019.",1
+GILD,Cutaneous lupus erythematosus (CLE),Phase 2,2019-10-24 00:00:00,Phase 2 trial did not meet primary endpoint.,1
+ALKS,Multiple sclerosis (MS),Approved,2019-10-30 00:00:00,"FDA Approval announced October 30, 2019.",1
+SUPN,Impulsive Aggression in ADHD,Phase 3,2019-11-05 00:00:00,"Phase 3 trial did not meet primary endpoint - November 5, 2019.",1
+OBSV,Improving IVF outcomes,Phase 3,2019-11-06 00:00:00,"Phase 3 trial did not meet primary endpoint - November 10, 2019.",1
+NVS,Sickle cell disease,Approved,2019-11-15 00:00:00,"FDA Approval announced November 15, 2019.",1
+PFE,Bosimilar to Humira (adalimumab),Approved,2019-11-18 00:00:00,"FDA Approval announced November 18, 2019.",1
+ALNY,Acute hepatic porphyrias,Approved,2019-11-20 00:00:00,"FDA approval announced November 20, 2019.",1
+SNY,Immune thrombocytopenic purpura (ITP),Phase 2,2019-12-07 00:00:00,Phase 2 data at ASH December 2019 noted 39% of patients achieved primary endpoint.,1
+BMY,Myelofibrosis,Phase 2,2019-12-09 00:00:00,Phase 2 data at ASH December 2019 noted primary endpoint met in 10%~32% of patients across four cohorts.,0
+ITRM,Complicated intra-abdominal infections (cIAI),Phase 3,2019-12-10 00:00:00,"Phase 3 data missed primary endpoint - December 10, 2019.",0
+SRPT,Duchenne muscular dystrophy,Approved,2019-12-12 00:00:00,"FDA Approval announced December 12, 2019.",1
+NERV,Major Depressive Disorder,Phase 2b,2019-12-18 00:00:00,"Phase 2b data failed to meet endpoints - December 18, 2019. Development to be discontinued in MDD.",1
+BHC,Acne,Approved,2019-12-19 00:00:00,"FDA Approval announced December 19, 2019.",1
+AZN,Pancreatic cancer,Approved,2019-12-30 00:00:00,"FDA Approval announced December 30, 2019.",1
+MRK,NMIBC Bladder cancer,Approved,2020-01-08 00:00:00,"FDA Approval announced January 8, 2020.",1
+OYST,Dry eye disease,Phase 2,2020-01-12 00:00:00,"Phase 2 top-line data met primary endpoint - January 12, 2020.",0
+VERU,Hot flashes,Phase 2,2020-01-13 00:00:00,"Phase 2 data released January 13, 2020. 50mg dose shown to be effective (10mg ineffective).",1
+ELOX,Cystinosis,Phase 2,2020-01-14 00:00:00,"Phase 2 data released January 14, 2020.",0
+SNY,Multiple sclerosis,Phase 2,2020-02-06 00:00:00,"Phase 2 data met primary endpoint - February 6, 2020. Data to be presented at upcoming meeting.",1
+RHHBY,Inherited Alzheimer's disease,Phase 2/3,2020-02-10 00:00:00,Phase 3 trial did not meet primary endpoint.,1
+PFE,Generalized anxiety disorder (GAD),Phase 3,2020-02-10 00:00:00,Phase 3 trial did not meet primary endpoint.,1
+LLY,Type 2 diabetes,Approved,2020-02-21 00:00:00,"FDA Approval announced February 21, 2020.",1
+VNDA,Atopic dermatitis,Phase 3,2020-02-25 00:00:00,"Phase 3 trial did not meet primary endpoint - February 25, 2020.",1
+SNY,Refractory Multiple Myeloma,Approved,2020-03-02 00:00:00,"FDA Approval announced March 2, 2020.",1
+PFE,Head and Neck Cancer,Phase 3,2020-03-13 00:00:00,Phase 3 trial terminated - unlikely to show a statistically significant improvement in the primary endpoint of progression-free survival (PFS).,1
+LLY,Type 1 Diabetes,CRL,2020-03-20 00:00:00,"CRL announced March 20, 2020.",0
+RETA,Pulmonary arterial hypertension associated with connective tissue disease - CTD-PAH,Phase 3,2020-03-30 00:00:00,Phase 3 trial stopped following DSMB recommendation. Primary endpoint unlikely to be met.,-1
+BIIB,Pulmonary arterial hypertension associated with connective tissue disease - CTD-PAH,Phase 3,2020-03-30 00:00:00,Phase 3 trial stopped following DSMB recommendation. Primary endpoint unlikely to be met.,-1
+CTMX,Solid tumors,Phase 2,2020-03-30 00:00:00,Phase 2 trial has been terminated.,-1
+ZLDPF,Post bariatric surgery hypoglycemia,Phase 2,2020-03-30 00:00:00,"Phase 2 data released March 30, 2020.",0
+BMY,Myelodysplastic syndromes (MDS) cancer,Approved,2020-04-03 00:00:00,"FDA Approval announced April 3, 2020.",1
+PFE,BRAF-Mutant Colorectal Cancer,Approved,2020-04-08 00:00:00,"FDA Approval announced April 8, 2020.",1
+KNSA,Prurigo nodularis,Phase 2a,2020-04-22 00:00:00,"Phase 2a trial met primary endpoint - April 22, 2020.",0
+REGN,Non-small cell lung cancer (NSCLC),Phase 3,2020-04-27 00:00:00,"Phase 3 trial stopped early due to significant improvement in overall survival - April 27, 2020.",1
+UTHR,Pulmonary Arterial Hypertension (PAH),CRL,2020-04-28 00:00:00,"CRL announced April 29, 2020.",0
+AMGN,Scalp Psoriasis,Approved,2020-04-30 00:00:00,FDA approval announced April 2020.,1
+NVS,Non-small cell lung cancer,Approved,2020-05-06 00:00:00,"FDA Approval announced May 6, 2020.",1
+AZN,First-line ovarian cancer,Approved,2020-05-08 00:00:00,"FDA Approval announced May 8, 2020.",1
+CLVS,Castrate-resistant prostate cancer (mCRPC),Approved,2020-05-15 00:00:00,"FDA Approval announced May 15, 2020.",1
+BPMC,Fourth-line GIST,CRL,2020-05-15 00:00:00,"CRL issued May 15, 2020.",0
+GILD,Ulcerative colitis,Phase 2/3,2020-05-20 00:00:00,"Phase 2b/3 data released May 20, 2020. 200mg dose met primary endpoint. 100mg did not meet clinical remission endpoint.",1
+AQST,Parkinson’s Disease with motor fluctuations,Approved,2020-05-21 00:00:00,"FDA approval announced May 21, 2020.",1
+XERS,Post-Bariatric Hypoglycemia,Phase 2b,2020-05-22 00:00:00,"Phase 2b outpatient data released May 22, 2020.",0
+LLY,Patients evaluated for Alzheimer's Disease,Approved,2020-05-28 00:00:00,"FDA Approval announced May 28, 2020.",1
+KURA,Head and neck squamous cell carcinomas (HNSCC) with HRAS Mutations,Phase 2,2020-05-29 00:00:00,"Phase 2 median OS of 15.4 months, median PFS of 5.9 months and ORR of 50% observed in recurrent/metastatic HRAS mutant HNSCC",1
+AZN,Type 2 Diabetes / coronary artery disease (CAD),Approved,2020-06-01 00:00:00,"FDA approval announced June 1, 2020.",1
+TENX,Pulmonary Hypertension associated with Heart Failure and preserved Ejection Fraction (PH-HFpEF),Phase 2,2020-06-02 00:00:00,"Phase 2 top-line data released June 2, 2020. Primary endpoint (Pulmonary Capillary Wedge Pressure (PCWP) with bicycle exercise) not met. Various secondary endpoints met.",0
+SCNI,Universal flu vaccine,Phase 2,2020-06-10 00:00:00,Phase 2 data met both primary endpoints.,0
+MRK,Prevention HPV-Related Head and Neck Cancers,Approved,2020-06-12 00:00:00,"FDA Approval announced June 12, 2020.",1
+XERS,Exercise-Induced Hypoglycemia,Phase 2b,2020-06-15 00:00:00,"Phase 2b trial met primary endpoints - June 15, 2020.",0
+JNJ,generalized myasthenia gravis (gMG),Phase 2,2020-06-15 00:00:00,"Phase 2 trial met primary endpoint - June 15, 2020.",0
+EVOK,Diabetic gastroparesis,Approved,2020-06-19 00:00:00,"FDA Approval announced June 19, 2020.",1
+MRK,Cutaneous squamous cell carcinoma (cSCC),Approved,2020-06-24 00:00:00,"FDA approval announced June 24, 2020.",1
+BHVN,Obsessive compulsive disorder (OCD),Phase 2/3,2020-06-24 00:00:00,Phase 2/3 top-line data did not meet primary endpoint.,1
+MOLN,Age-related macular degeneration (AMD),CRL,2020-06-26 00:00:00,"CRL issued June 26, 2020.",0
+RVNC,Forehead lines,Phase 2,2020-06-30 00:00:00,"Phase 2 data noted 100% of subjects achieved a score of none or mild wrinkle or line severity at Week 4 in at least one treatment group - June 30, 2020.",1
+RVNC,Lateral Canthal (Crow’s Feet) Lines,Phase 2,2020-06-30 00:00:00,"Phase 2 top-line data released June 30, 2020. 88% of subjects achieved a score of none or mild wrinkle or line severity at Week 4 in at least one treatment group.",1
+JAZZ,Cataplexy and Excessive Daytime Sleepiness in Narcolepsy,Approved,2020-07-22 00:00:00,"FDA Approval announced July 22, 2020.",1
+GILD,Relapsed or Refractory Mantle Cell Lymphoma (r/r MCL) - cancer,Approved,2020-07-24 00:00:00,"FDA approval announced July 24, 2020.",1
+JNJ,Major depressive disorder (MDD),Approved,2020-08-03 00:00:00,"FDA approval announced August 3, 2020.",1
+EGRX,Exertional heat stroke (EHS),CRL,2020-08-10 00:00:00,"CRL announced August 10, 2020.",0
+RHHBY,Ulcerative colitis,Phase 3,2020-08-10 00:00:00,"HIBISCUS I induction study, in people without prior anti-tumor necrosis factor (anti-TNF) treatment, etrolizumab met the primary endpoint. HIBISCUS II induction study, including people without prior anti-TNF treatment, did not meet its primary endpoint.",1
+JNJ,Multiple Myeloma,Approved,2020-08-20 00:00:00,"FDA approval announced August 20, 2020.",1
+NVS,Relapsing multiple sclerosis,Approved,2020-08-20 00:00:00,"FDA approval announced August 20, 2020.",1
+BPMC,RET-fusion non-small cell lung cancer (NSCLC),Approved,2020-09-04 00:00:00,"FDA Approval announced September 4, 2020.",1
+GSK,Asthma,Approved,2020-09-09 00:00:00,"FDA approval announced September 9, 2020.",1
+GSK,Severe hypereosinophilic syndrome (HES),Approved,2020-09-25 00:00:00,"FDA approval announced September 25, 2020.",1
+BMY,Melanoma,Phase 3,2020-10-02 00:00:00,Statistically significant improvement in RFS in the all-comer (intent-to-treat) population failed to show.,1
+GOSS,Eosinophilic asthma,Phase 2b,2020-10-13 00:00:00,"Phase 2b trial did not meet primary endpoint - October 13, 2020.",1
+VRTX,alpha-1 antitrypsin (AAT) deficiency,Phase 2,2020-10-14 00:00:00,Phase 2 trial and development to be discontinued due to safety.,-1
+GLPG,Osteoarthritis,Phase 2,2020-10-15 00:00:00,"Phase 2 trial did not meet primary endpoint - October 15, 2020.",1
+MRK,Classical Hodgkin lymphoma,Approved,2020-10-15 00:00:00,"FDA Approval announced October 15, 2020.",1
+BIIB,Multiple sclerosis (MS),Phase 2,2020-10-21 00:00:00,Phase 2b trial did not meet primary endpoint.,1
+ATXS,Duchenne muscular dystrophy (DMD),Phase 3,2020-10-26 00:00:00,"Phase 3 trial did not meet primary endpoint - October 26, 2020.",1
+CCXI,Hidradenitis Suppurativa (HS),Phase 2b,2020-10-28 00:00:00,"Phase 2b data released October 28, 2020. Primary endpoint across Hurley Stages 2 and 3 not met. Phase 3 trial planned in Stage 3 patients only.",0
+AUPH,Dry eye syndrome,Phase 2/3,2020-11-02 00:00:00,"Phase 2/3 trial did not meet primary endpoint - November 2, 2020. Development to be suspended.",1
+BMY,Plaque psoriasis,Phase 3,2020-11-03 00:00:00,"Phase 3 trial met both co-primary endpoints - November 3, 2020.",0
+FIXX,Phenylketonuria (PKU),Phase 1/2,2020-11-06 00:00:00,"Data released November 6, 2020 noted 2/6 showed meaningful reductions in Phe.",1
+PFE,Atopic dermatitis (AD),Phase 2b,2020-11-09 00:00:00,"Phase 2b trial did not meet primary endpoint - November 9, 2020. Phase 3 trial planned.",1
+OBSV,Pre-term labor,Phase 2a,2020-11-16 00:00:00,"Phase 2a data released November 16, 2020. 7/56 (12.5%) of women receiving ebopiprant delivered within 48 hours of starting treatment compared to 12/55 (21.8%) receiving placebo (OR 90% CI: 0.52 (0.22, 1.23)).",1
+BLPH,COVID-19,Phase 3,2020-11-23 00:00:00,"Phase 3 trial placed on clinical hold - November 23, 2020.",0
+VNDA,Smith-Magenis Syndrome,Approved,2020-12-01 00:00:00,"FDA approval announced December 1, 2020.",1
+RHHBY,Chronic rhinosinusitis with nasal polyps (CRSwNP),Approved,2020-12-01 00:00:00,"FDA approval announced December 1, 2020.",1
+FATE,Non Hodgkin Lymphoma,Phase 1,2020-12-04 00:00:00,"Phase 1 interim data released December 4, 2020. 2/4 complete responses and one partial response.",0
+CRDF,Acute Myeloid Leukemia (AML),Phase 1/2,2020-12-06 00:00:00,"Phase 1/2 data presented at ASH December 6, 2020. 9 of 45 (20%) evaluated patients achieved CR/CRi.",1
+LPCN,Men with low testosterone (Low T),Approved,2020-12-08 00:00:00,"FDA tentative approval announced December 8, 2020.",1
+VTVT,Mild Alzheimer’s disease with type 2 diabetes,Phase 2,2020-12-15 00:00:00,"Phase 2 top-line data did not meet primary endpoint - December 15, 2020.",1
+KPTI,Multiple myeloma,Approved,2020-12-18 00:00:00,"FDA approval announced December 18, 2020.",1
+BMY,First-line Glioblastoma (GBM) cancer,Phase 3,2020-12-23 00:00:00,Phase 3 trial unlikely to meet OS primary endpoint,1
+CALA,Renal cell carcinoma,Phase 2,2021-01-04 00:00:00,"Phase 2 top-line data did not meet primary endpoint - January 4, 2021.",1
+TAK,Renal cell carcinoma,Phase 2,2021-01-04 00:00:00,"Phase 2 top-line data did not meet primary endpoint - January 4, 2021.",1
+INO,Human papilloma virus (HPV)-related anal dysplasia,Phase 2,2021-01-06 00:00:00,Phase 2 data noted 63% showed reduction of lesions of greater than 25%.,1
+ARGX,Acute myeloid leukemia (AML),Phase 2,2021-01-08 00:00:00,"Phase 2 interim data released January 8, 2021. Complete remission (CR) rate 27% (14/52) and composite complete remission (CRc), including CRs with incomplete hematologic recovery 40% (21/52).",0
+GMAB,Amyloidosis,Approved,2021-01-15 00:00:00,"FDA approval announced January 15, 2021.",1
+NBTX,Colorectal cancer,Phase 1/2,2021-01-15 00:00:00,More than 70% of patients in the study showed objective tumor response after CCRT.,1
+GSK,Non-small Cell Lung Cancer,Phase 3,2021-01-20 00:00:00,Phase 3 trial unlikely to meet primary endpoint - to be discontinued.,1
+GSK,HIV,Approved,2021-01-21 00:00:00,"FDA approval announced January 21, 2021.",1
+AUPH,Lupus,Approved,2021-01-22 00:00:00,"FDA Approval announced January 22, 2021.",1
+TGTX,Marginal zone lymphoma (MZL),Approved,2021-02-05 00:00:00,"FDA approval announced February 5, 2021.",1
+SNY,Basal cell carcinoma (BCC),Approved,2021-02-09 00:00:00,"FDA approval announced February 9, 2021.",1
+AGEN,Solid tumors,Phase 1/2,2021-02-09 00:00:00,"Phase 1/2 data announced February 9, 2021 - six confirmed responses.",0
+ABEO,Sanfilippo syndrome type A (MPS IIIA),Phase 1/2,2021-02-12 00:00:00,"Phase 1/2 updated safety data released February 12, 2021. Well tolerated.",1
+REGN,Non-small cell lung cancer (NSCLC),Approved,2021-02-22 00:00:00,"FDA approval announced February 22, 2021.",1
+TAK,Negative symptoms of schizophrenia,Phase 2,2021-03-02 00:00:00,"Phase 2 trial did not meet primary endpoint - March 2, 2021.",1
+ZVRA,ADHD,Approved,2021-03-02 00:00:00,"FDA approval announced March 2, 2021.",1
+PFE,Irritable Bowel Syndrome,Phase 2b,2021-03-02 00:00:00,"Phase 2b trial did not meet primary endpoint - March 2, 2021.",1
+MOLN,Mild to moderate COVID-19,Phase 3,2021-03-03 00:00:00,Independent Data and Safety Monitoring Board (DSMB) recommended that enrollment to be closed - raised concerns about the magnitude of potential benefit.,0
+MRNS,PCDH19-related epilepsy,Phase 2,2021-03-09 00:00:00,Phase 2 trial showed a median 61.5% reduction in seizure frequency for ganaxolone compared to 24.0% for placebo (p=0.17).,1
+NVS,Non-small cell lung cancer (NSCLC) - 2nd/3rd line,Phase 3,2021-03-09 00:00:00,Phase 3 trial did not meet primary endpoint.,1
+BLUE,Childhood cerebral adrenoleukodystrophy (CCALD),Phase 2/3,2021-03-14 00:00:00,"Phase 2/3 updated data presented March 15, 2021. 90% of evaluable patients (27/30) alive and free of major functional disabilities at two years follow-up.",1
+LPTX,Endometrial Cancer,Phase 2,2021-03-22 00:00:00,"Phase 2 data presented at Society of Gynecologic Oncology 2021 Annual Meeting, March 19-25, 2021. PFS 5.4 months.",1
+PRQR,Usher Syndrome Type 2,Phase 1/2,2021-03-24 00:00:00,"Phase 1/2 data released March 24, 2021. Mean benefit of 6 letters was observed at week 48",1
+JAZZ,Acute myeloid leukemia,Approved,2021-03-30 00:00:00,FDA approval for label extension to include children.,1
+SNY,Refractory Multiple Myeloma,Approved,2021-03-31 00:00:00,"FDA approval announced March 31, 2021.",1
+TPTX,RET-altered NSCLC,Phase 1/2,2021-04-05 00:00:00,"Phase 1/2 interim data noted 3/14 partial responses - April 5, 2021.",0
+BIIB,Essential tremor,Phase 2,2021-04-12 00:00:00,"Phase 2 trial met primary endpoint (P=0.049) - April 12, 2021. 62% of patients were down-titrated to from 60mg to 45 mg or 30 mg with the high dose not well tolerated.",1
+OVID,Fragile X syndrome,Phase 2,2021-04-19 00:00:00,"Development to be discontinued - April 19, 2021.",-1
+MESO,ARDS due to COVID-19,Phase 3,2021-04-29 00:00:00,"Remestemcel-L reduced mortality through day 60 by 46% in the pre-specified group below age 65, but not in patients 65 or older.",1
+AZN,Chronic Kidney Disease,Approved,2021-04-30 00:00:00,"FDA approval announced April 30, 2021.",1
+ARQT,Chronic Hand Eczema,Phase 2,2021-05-04 00:00:00,Phase 1/2b trial did not meet primary endpoint.,1
+HRTX,Post operative pain,Approved,2021-05-13 00:00:00,"FDA approval announced May 13, 2021.",1
+INCY,Non-Small-Cell Lung Cancer (NSCLC),Phase 2,2021-05-19 00:00:00,Phase 2 data in ASCO abstract noted ORR of 65.6% for the treatment-naive expansion Cohort 7.,1
+HARP,Metastatic castration-resistant prostate cancer,Phase 1/2,2021-05-19 00:00:00,Phase 1/2 data in ASCO abstract noted PSA and CTC reductions and treatment duration > 24 weeks in 15/62 patients.,1
+IBRX,Various tumors,Phase 2,2021-05-20 00:00:00,Overall response rate 8% noted in ASCO abstract.,0
+PFE,Migraine - preventative,Approved,2021-05-27 00:00:00,"FDA approval announced May 27, 2021.",1
+AMGN,Non-small cell lung cancer (NSCLC),Approved,2021-05-28 00:00:00,"FDA approval announced May 28, 2021.",1
+LIAN,Cholangiocarcinoma,Approved,2021-06-01 00:00:00,"FDA approval announced June 1, 2021.",1
+CMRX,Neuroendocrine Tumors,Phase 2,2021-06-04 00:00:00,Phase 2 data in ASCO abstract noted ORR 5/10 (50%).,0
+CMRX,Smallpox,Approved,2021-06-04 00:00:00,"FDA approval announced June 4, 2021.",1
+VRTX,Alpha-1 antitrypsin (AAT) deficiency,Phase 2,2021-06-10 00:00:00,"Phase 2 data released June 10, 2021. Primary endpoint met but insufficient clinical benefit to advance program.",-1
+CRSP,Beta-thalassemia,Phase 1/2,2021-06-11 00:00:00,"Phase 1/2 data presented at EHA meeting June 11, 2021. All 15 patients were transfusion independent with follow-up ranging from 4 to 26 months after CTX001 infusion and had clinically meaningful improvements in total hemoglobin from 8.9 to 16.9 g/dL and fetal hemoglobin from 67.3% to 99.6% at last visit.",1
+BIIB,Choroideremia,Phase 3,2021-06-14 00:00:00,"Phase 3 trial did not meet primary endpoint - June 14, 2021.",1
+AZN,COVID-19 (post-exposure prophylaxis),Phase 3,2021-06-15 00:00:00,"Phase 3 trial did not meet primary endpoint - June 15, 2021.",1
+BPMC,Advanced Systemic mastocytosis (SM),Approved,2021-06-16 00:00:00,"FDA approval announced June 16, 2021.",1
+GLTO,COVID-19,Phase 2,2021-06-22 00:00:00,"Phase 2 top-line data released June 22, 2021. Will focus resources on other pipeline treatments.",1
+SNY,Respiratory Syncytial Virus,Phase 2/3,2021-06-28 00:00:00,"Phase 2/3 positive data released June 28, 2021.",0
+ELTX,Acute lung injury in patients with COVID-19,Phase 3,2021-06-29 00:00:00,"Phase 2 trial did not meet primary or secondary efficacy endpoints - June 29, 2021.",1
+ARQT,Vitiligo,Phase 2b,2021-07-01 00:00:00,"Phase 2a trial to be terminated - noted July 1, 2021.",-1
+ARWR,Cystic Fibrosis,Phase 1/2,2021-07-02 00:00:00,"Phase 1/2 trial paused following a trial in rats that contained unexpected signals of local lung inflammation - July 2, 2021.",-1
+HALO,Multiple myeloma,Approved,2021-07-12 00:00:00,"FDA approval announced July 12, 2021.",1
+INCY,Squamous Cell Carcinoma of the Anal Canal (SCAC),CRL,2021-07-23 00:00:00,"CRL announced July 23, 2021",0
+SLGL,Acne,Approved,2021-07-27 00:00:00,"FDA approval announced July 27, 2021.",1
+PALI,Bowel Function Following Abdominal Surgery,Phase 2,2021-07-29 00:00:00,"Phase 2 data released July 29, 2021- statistically significant (p=0.0008) effect in accelerating the return of bowel function.",0
+SNSE,Squamous Cell Carcinoma of the Head and Neck,Phase 1/2,2021-08-04 00:00:00,"Development has been discontinued - noted August 4, 2021.",-1
+CLNN,Multiple Sclerosis,Phase 2,2021-08-05 00:00:00,"Phase 2 trial met primary endpoint - August 5, 2021.",0
+MRSN,Non-small cell lung cancer (NSCLC) adenocarcinoma and ovarian cancer,Phase 1,2021-08-06 00:00:00,Phase 1 top-line data due 4Q 2021.,0
+JAZZ,Idiopathic Hypersomnia,Approved,2021-08-12 00:00:00,"FDA approval announced August 12, 2021.",1
+GSK,Mismatch repair deficient (dMMR) solid tumors,Approved,2021-08-17 00:00:00,"FDA Approval announced August 27, 2021.",1
+MRNS,Tuberous Sclerosis Complex,Phase 2,2021-08-17 00:00:00,"Phase 2 top-line data released August 17, 2021. Primary endpoint showed a median 16.6% reduction in 28-day seizure frequency relative to baseline.",1
+ANAB,Mismatch repair deficient (dMMR) solid tumors,Approved,2021-08-17 00:00:00,"FDA Approval announced August 27, 2021.",1
+CARA,Chronic kidney disease (CKD) on hemodialysis (HD) with Moderate-to Severe Pruritus,Approved,2021-08-23 00:00:00,"FDA approval announced August 23, 2021.",1
+NVS,Diffuse large B-cell lymphoma (DLBCL) - 2nd line,Phase 3,2021-08-23 00:00:00,"Phase 3 trial did not meet primary endpoint - August 23, 2021.",1
+FGEN,Chemotherapy-induced anemia (CIA),Phase 2,2021-08-25 00:00:00,Phase 2 positive topline results released August 25 2021.,0
+CRNX,Congenital hyperinsulinism (HI),Phase 1,2021-09-15 00:00:00,"Phase 1 preliminary data demonstrated dose-dependent reductions in glucose-stimulated and sulfonylurea-induced Insulin secretion September 15, 2021.",1
+TAK,Non-small cell lung cancer (NSCLC),Approved,2021-09-15 00:00:00,"Approved September 15, 2021.",1
+EXEL,First-line renal cell carcinoma,Phase 3,2021-09-16 00:00:00,"Additional Phase 3 data presented at ESMO September 16, 2021. At a median follow-up of 23.5 months, progression free survival (PFS) and objective response rate (ORR) benefits were observed regardless of prior nephrectomy status. The magnitudes of PFS and ORR benefits were greater in the subgroup with prior nephrectomy.",1
+AZN,Gastric cancer,Phase 2,2021-09-17 00:00:00,"Phase 2 trial data showed confirmed overall response rate (ORR) of 38% as assessed by independent central review (ICR). Three (3.8%) complete responses (CR) and 27 (34.2%) partial responses (PR) were observed in patients treated with ENHERTU, September 17, 2021.",1
+TGTX,Relapsed or refractory Chronic Lymphocytic Leukemia (CLL),Phase 1/2,2021-09-20 00:00:00,"Phase 1/2 updated data showed that from a total of 20 patients 91% ORR in patients with R/R CLL (n=11), 83% ORR in BTK refractory CLL patients (n=6), with 4 of 5 responders achieving a response to U2 alone at the patient's first efficacy assessment, prior to the addition of pembrolizumab, 25% ORR in patients with RT (n=8), including 25% CR rate. Data presented at iwCLL September 20, 2021.",1
+SGEN,Cervical Cancer,Approved,2021-09-20 00:00:00,"Approved September 20, 2021.",1
+TAK,Thyroid Carcinoma,Phase 3,2021-09-20 00:00:00,"Phase 3 data showed a median progression-free survival was 11.0 months for CABOMETYX compared with 1.9 months for placebo. Objective response rate (ORR) favored CABOMETYX at 11%, including one complete response, versus 0% for placebo. Median overall survival was 19.4 months, September 20, 2021.",1
+PFE,Multiple system atrophy (MSA),Phase 3,2021-09-27 00:00:00,"Phase 3 trial did not met primary or secondary endpoints, noted September 27, 2021.",0
+ADGI,COVID-19 (treatment),Phase 2/3,2021-09-29 00:00:00,"Phase 2/3 new data compiled to date suggest that the 300 mg IM regimen has a projected ability to rapidly achieve and maintain target concentrations at key tissue sites of viral replication, including the ability to attain near complete (> 90%) and durable (> 28-day) SARS-CoV-2 receptor occupancy across a range of baseline viral loads, noted September 29, 2021.",1
+PFE,Pneumonia and influenza for >65 yrs,Phase 3,2021-09-29 00:00:00,"Phase 3 top-line results showed responses to the combination were noninferior to those elicited by the vaccines when administered one month apart. The safety profile of the combination was similar as compared to when each vaccine was administered separately, noted September 29, 2021.",1
+TGTX,Multiple Sclerosis,BLA Filing,2021-09-30 00:00:00,"BLA submitted September 30, 2021.",0
+CTIC,COVID-19,Phase 3,2021-10-01 00:00:00,"Phase 3 trial did not demonstrate a clinical benefit, trial will no longer continue.",1
+BPTS,Sarcopenia,Phase 2b,2021-10-04 00:00:00,"Phase 2b data displayed that the highest dose (350 mg bid) showed a clinically meaningful improvement in the 400-Meter Walk Test (400MWT), the primary endpoint of the study, including in sub-populations at higher risk of mobility disability, after 6 months of treatment. Safety profile at the doses of 175 mg bid and of 350 mg bid showed no Serious Adverse Events (SAE) related to treatment, noted October 4, 2021.",1
+FRTX,Axillary Hyperhidrosis,Phase 3,2021-10-07 00:00:00,"Phase 3 study demonstrated that dosing was generally well-tolerated, the proportion of subjects achieving at least a 2-point improvement in the HDSM-Ax1 score from baseline to EOT2 was 63.9% (n=180). Additionally the change in GSP3 from baseline to EOT was -145.9mg. Overall, 82% of patients who were randomized to the dose in the study completed the full six weeks of treatment. Nine (5.0%) subjects who received the dose discontinued due to a TEAE. No treatment-related Serious Adverse Events (SAEs) were reported, noted October 7, 2021.",1
+ORIC,Metastatic prostate cancer,Phase 1b,2021-10-07 00:00:00,"Phase 1b initial results showed that the dose was well tolerated, with no substantial added toxicity. PK showed no evidence of drug-drug interaction. Within the key patient population (8), 75% of patients' tumors expressed moderate to high GR and 25% of patients' tumors expressed low GR, noted October 7, 2021.",1
+BMY,Ulcerative Colitis,Phase 2,2021-10-07 00:00:00,"Phase 2 trial did not meet primary or secondary endpoints, October 7, 2021.",1
+HRMY,Autism Spectrum Disorder (ASD),Phase 2,2021-10-08 00:00:00,"Phase 2 long term data displayed a statistically significant improvement in ABC-C Subscale scores through 38 weeks. Only 7 patients (19%) experienced an AE that was deemed to be treatment related. Of the 10 treatment-related AEs reported, 7 were application site-related (application site reaction, pruritus, and dryness) and 1 each of sleep disorder, increased appetite, and pollakiuria, noted October 8, 2021.",1
+OCUL,Allergic conjunctivitis,Approved,2021-10-11 00:00:00,"sNDA approved October 11, 2021.",1
+MRK,Cervical Cancer,Approved,2021-10-13 00:00:00,"Approved October 13, 2021.",1
+VRNA,Chronic obstructive pulmonary disease (COPD),Phase 2,2021-10-13 00:00:00,"Phase 2 part B data noted when administered by hand-held pMDI over one week treatment provided clinically meaningful, statistically significant and dose-dependent bronchodilation, noted October 13, 2021.",1
+LLY,HR+ / HER2- breast cancer,Approved,2021-10-13 00:00:00,"Approved October 13, 2021.",1
+OYST,Dry eye disease,Approved,2021-10-18 00:00:00,"Approved October 18, 2021.",1
+GILD,HIV,Approved,2021-10-18 00:00:00,"Approved for pediatric patients October 18, 2021.",1
+OBSV,Uterine fibroids,Phase 3,2021-10-20 00:00:00,"Phase 3 data reported once daily treatment without ABT reduced uterine volume by 39% after 24 weeks. However, co-administration of hormonal ABT after 24 weeks counteracted the uterine volume reducing effects at 52 weeks, noted October 20, 2021.",1
+BHC,Macular edema associated with uveitis,Approved,2021-10-25 00:00:00,"Approved October 25, 2021.",1
+AKTX,Atopic keratoconjunctivitis,Phase 1/2,2021-10-25 00:00:00,"Phase 1/2 early clinical data demonstrated a clear dose response effect. The optimal dose showed a greater reduction in inflammation score than cyclosporin and dexamethasone compared to control at day 10 (79% [nomacopan], 41% [cyclosporin], and 73% [dexamethasone]), noted October 25, 2021.",1
+ERYP,Pancreatic cancer,Phase 3,2021-10-25 00:00:00,"Phase 3 trial did not meet its primary endpoint of overall survival, noted October 25, 2021.",1
+ELTX,Acute kidney injury (AKI) / Delayed Graft Function,Phase 3,2021-10-26 00:00:00,"Phase 3 trial did not met the primary endpoint, noted October 26, 2021.",0
+NVS,Chronic spontaneous urticaria (CSU),Phase 2,2021-10-27 00:00:00,"Phase 2 trial met primary endpoint, noted October 27, 2021.",0
+SRNE,COVID-19,Phase 2,2021-10-27 00:00:00,"Phase 2 trial completed. Phase 2 data from US trial noted a 20% improvement in the primary endpoint for patients in category 5, and discharge from the hospital was 2 days sooner than those in the Control Group. The Brazilian study reported a 25% improvement in primary endpoint, noted October 27, 2021.",1
+MTCR,Type 2 Diabetes and Nonalcoholic steatohepatitis (NASH),Phase 2a,2021-11-02 00:00:00,"Phase 2a top-line data released November 2, 2021. All regimens had favorable safety profiles and were generally well-tolerated, with no treatment-related serious adverse events (AEs). Mild-moderate pruritus was reported in 0%-6% of patients across all groups.",1
+CYDY,Triple Negative Breast Cancer,Phase 1/2,2021-11-03 00:00:00,"Phase 1/2 data reported 75% of patients with a lower level of circulating cells after leronlimab (86%) or at baseline (14%) exhibited a 3600% increase in 12-month Overall Survival, as compared to a 980% reported in August 2021. A 580% increase in 12-month Progression Free Survival was reported as well, November 3, 2021.",0
+CASI,Non-Hodgkin's Lymphoma,Phase 1/2,2021-11-05 00:00:00,"Phase 1/2 data reported an objective response rate (ORR) of 50%, with three complete responses and three partial responses seen in twelve patients, noted November 5, 2021.",0
+ALXO,Head and Neck Squamous Cell Carcinoma,Phase 2,2021-11-09 00:00:00,"Phase 2 clinical data showed that patients with ≥2L who have not received a prior checkpoint inhibitor (""CPI"") (n=10), long-term follow-up data shows that dosing demonstrates a 12-month OS rate of 80% with a mOS of 24.5 months, which compares favorably with standard pembrolizumab therapy in patients with 2L CPI, noted November 9, 2021.",1
+BNTX,Solid tumors,Phase 1/2,2021-11-10 00:00:00,"Phase 1/2 data demonstrated biologic and early antitumor activity with a favorable safety profile in patients with advanced solid tumors. Expansion cohorts, including combination therapy with PD-1 inhibitors, are currently enrolling, noted November 10, 2021.",1
+CGEN,Advanced cancer,Phase 1,2021-11-12 00:00:00,"Phase 1 preliminary data from 18 patients enrolled demonstrated a favorable safety profile and that it was well-tolerated. However, a maximum tolerated dose was not reached, best response of stable disease (SD) was reported in 9 patients (50%), with 6 patients (67%) having confirmed SD and 3 patients (17%) with SD of at least 6 months, noted November 12, 2021.",1
+ACIU,Alzheimer’s Disease,Phase 1/2,2021-11-12 00:00:00,"Phase 1b/2a further interim data showed that treatment led to strong induction of antibodies specific for pathological forms of Tau such as pTau and its aggregated form, enriched paired helical filaments (ePHF).",1
+IRON,Dry Age-related Macular Degeneration / Geographic Atrophy,Phase 2a,2021-11-12 00:00:00,"Additional data released November 12, 2021. Through 510 intravitreal administrations of GEM 103, no ocular serious adverse events related to study drug reported, no ocular adverse events leading to study discontinuation, and no anti-GEM103 antibodies detected in plasma. 17 patients (27.4%) experienced mild to moderate ocular adverse events in the study eye including two intraocular inflammation adverse events. Inflammation was mild or moderate and the patients recovered without recurrence and no study drug interruption. The moderate case was unrelated to GEM103 and the patient had a history of autoimmune disease. No increased risk observed for Choroidal Neovascularization (CNV). Two adverse events of neovascular AMD in the study eye occurred; in both cases, there were no definitive evidence of CNV by independent reading center's analysis of the retinal imaging. These events were determined to be unrelated to GEM103 and there was no impact on vision.",1
+CBIO,Hemophilia,Phase 3,2021-11-12 00:00:00,"Program to be discontinued, Phase 3 data reported that the trial successfully treated bleeds with subcutaneous (SQ) MarzAA and has not observed any treatment-related adverse or thrombotic events, noted November 12, 2021.",1
+ADTX,Covid-19,Phase 3,2021-11-12 00:00:00,"Phase 3 top-line data reported that the trial did not meet its primary endpoint, noted November 12, 2021.",1
+ALKS,Recurrent or metastatic head and neck squamous cell carcinoma,Phase 2,2021-11-13 00:00:00,"Phase 2 data showed that combination therapy was generally well tolerated (n=14), 8 had no prior response to dosing and 6 had previous best response of SD or PR. Mean (SD±) age was 62±12; AE were consistent with those observed with intravenous studies. Peripheral immune cell expansion profiles are comparable to that observed with the same regimen.",1
+ONCT,Relapsed or refractory Ewing sarcoma,Phase 1/2,2021-11-15 00:00:00,"Phase 1/2 interim data showed that the drug remains generally well tolerated. 2 CR in heavily pretreated patients. As of the October 1, 2021 data cutoff date, the most common drug-related adverse events included myelosuppression, fatigue, alopecia, nausea, pyrexia, and decreased appetite. No unexpected off-target toxicities have been observed, noted November 15, 2021.",1
+ARWR,Hepatitis B (HBV),Phase 2b,2021-11-15 00:00:00,"Phase 2b results reported a dose dependent response with 19.1% of patients meeting the primary endpoint and 74.7% of patients achieving HBsAg <100 IU/mL, noted November 15, 2021.",1
+ELOX,Cystic fibrosis,Phase 2,2021-11-17 00:00:00,"Phase 2 monotherapy dosing data at 1.5mg/kg/day demonstrated a statistically significant 5.4mmol/L mean sweat chloride reduction, an established surrogate for restoration of CFTR biological activity, noted November 17, 2021.",1
+TBPH,Crohn's Disease,Phase 2,2021-11-17 00:00:00,"Phase 2 trial voluntarily discontinued, noted November 17, 2021",-1
+PRQR,Retinitis pigmentosa,Phase 1/2,2021-11-18 00:00:00,"Additional Phase 1b/2 data reported a mean benefit of 13 letters after a single injection at 72 weeks, noted November 18, 2021",0
+BMRN,Achondroplasia,Approved,2021-11-19 00:00:00,"Approved November 19, 2021.",1
+IMGN,Ovarian cancer,Phase 3,2021-11-30 00:00:00,"Phase 3 data reported that trial met primary endpoint with a confirmed objective response rate of 32.4% and median duration of response at 5.9 months, noted November 30, 2021.",0
+RDHL,Prostate Cancer,Phase 2,2021-11-30 00:00:00,"After additional review of the unaudited data, the Phase 2 trial did not meet the primary endpoint in the combination with enzalutamide, noted November 30, 2021.",1
+BYSI,Chemotherapy-induced neutropenia (CIN),CRL,2021-12-01 00:00:00,"CRL announced December 1, 2021.",0
+MRK,IIB or IIC Melanoma,Approved,2021-12-03 00:00:00,"Approved December 3, 2021.",1
+LLY,COVID-19 Anti-body,Approved,2021-12-03 00:00:00,"Emergency Use Authorization (EUA) expanded for children under 12 years old, noted December 3, 2021.",0
+OCUL,Dry eye disease,Phase 2,2021-12-06 00:00:00,"Phase 2 top-line results showed statistically significant improvement for primary endpoint of bulbar conjunctival hyperemia compared with vehicle hydrogel insert. Both formulations were generally well tolerated with favorable safety profiles, noted December 6, 2021.",1
+CHRS,Solid tumors,Phase 1,2021-12-06 00:00:00,"Phase 1 update June 4, 2021 noted stable disease of 7 of 19 evaluable patients (37%). Phase 1 data reported 10 of 32 evaluable patients (31%) receiving the monotherapy had disease stabilization at eight weeks, with four (12%) persisting beyond 16 weeks, noted December 6, 2021.",1
+RHHBY,Non-Hogkin Lymphona,Phase 1/2,2021-12-11 00:00:00,"Phase 1b/2 results reported an objective response rate (ORR) of 65% with a median duration of response (DOR) not reached (observed DOR: 0.1+ to 15.3+ months). At data cut-off, one patient had achieved a CR after an initial CR that had lasted for 15 months, noted December 11, 2021.",1
+GILD,Diffuse Large B-Cell Lymphoma (DLBCL),Phase 2,2021-12-13 00:00:00,"Phase 2 primary analysis reported 89% of evaluable patients achieved a response (ORR), including 78% of patients with a complete response (CR) at a median follow-up of 15.9 months, noted December 13, 2021.",1
+AGIO,Sickle Cell Disease,Phase 2,2021-12-13 00:00:00,"Phase 2 data demonstrated the potential to provide clinically meaningful outcomes for patients, including improvements in anemia, hemolysis and red blood cell sickling. No SAEs occurred, and all AEs were mild and mostly transient. One vaso-occlusive crisis (VOC) occurred without hospital admission and did not require dose reduction or discontinuation.",1
+PFE,Ankylosing spondylitis,Approved,2021-12-14 00:00:00,"Approved December 14, 2021.",1
+MGTA,Multiple Myeloma,Phase 2,2021-12-14 00:00:00,"Phase 2 investigator-initiated clinical trial data confirmed previously reported positive topline clinical data where it achieved the primary endpoint for collection of hematopoietic stem cells (HSCs), was well-tolerated and mobilized HSCs which were able to successfully engraft with positive 100-day outcomes.",1
+ABBV,Psoriatic arthritis,Approved,2021-12-15 00:00:00,"Approved December 15, 2021.",1
+BMY,Graft Versus Host Disease (aGvHD),Approved,2021-12-15 00:00:00,"Approved December 15, 2021.",1
+BLPH,Pulmonary Hypertension-Sarcoidosis (PH-Sarc),Phase 2,2021-12-17 00:00:00,"Phase 2 top-line data reported that all 8 subjects demonstrated decreases in mean pulmonary arterial pressure (mPAP) and pulmonary vascular resistance (PVR). Treatment resulted in a median drop of 20% in PVR, compared to a median baseline PVR of 329 dyne/cm.sec-5; a reduction of 20% or more in PVR, noted December 17, 2021.",1
+ARGX,Myasthenia gravis (MG),Approved,2021-12-17 00:00:00,"Approved December 17, 2021.",1
+CHRS,Psoriasis,Approved,2021-12-20 00:00:00,"Approved December 20, 2021.",1
+ALDX,Dry eye disease,Phase 3,2021-12-20 00:00:00,"Phase 3 trial did not meet the primary endpoint, secondary endpoint was achieved, December 20, 2021.",1
+ANIP,Mycobacterium avium complex,Approved,2021-12-21 00:00:00,"Approved December 21, 2021.",1
+NVS,Hypercholesterolemia,Approved,2021-12-22 00:00:00,"Approved December 22, 2021.",1
+KNSA,COVID-19-related acute respiratory distress syndrome (ARDS),Phase 2/3,2021-12-28 00:00:00,Phase 3 portion of the trial did not meet the primary efficacy endpoint of proportion of patients alive and free of mechanical ventilation at Day 29.,1
+ALNA,Hyperuricemia in chronic kidney disease (CKD),Phase 2a,2022-01-04 00:00:00,"Phase 2a initial data reported statistically significant reduction in serum uric acid (sUA) from baseline compared to placebo, noted January 4, 2022.",1
+RVMD,Solid tumors,Phase 1b,2022-01-11 00:00:00,"Phase 1/1b data reported one patient exhibiting a confirmed partial response with a 63% reduction from baseline and the other three with stable disease, noted January 11, 2022.",1
+PFE,Pneumococcal + Covid-19 vaccine dual administration in 65<,Phase 3,2022-01-12 00:00:00,"Phase 3 top-line results noted that responses for all 20 serotypes and to the covid-19 vaccine were similar, with a safety profile similar to the booster dose, noted January 12, 2022.",0
+ABBV,Atopic Dermatitis,Approved,2022-01-14 00:00:00,"Approved January 14, 2022.",1
+MRK,Hepatocellular Carcinoma (HCC),Phase 3,2022-01-18 00:00:00,"Phase 3 data reported a reduced risk of death by 21% and that the median OS was 14.6 months, noted January 18, 2022.",1
+ABBV,Psoriatic Arthritis,Approved,2022-01-21 00:00:00,"Approved January 21, 2022.",1
+MRK,Chronic cough,CRL,2022-01-24 00:00:00,"CRL announced January 24, 2022.",0
+INCY,Marginal Zone Lymphoma,NDA Filing,2022-01-25 00:00:00,"NDA voluntarily withdrawn, noted January 25, 2022",0
+LLY,Primary Sjogren's Syndrome,Phase 2,2022-01-27 00:00:00,"Phase 2 study withdrawn noted January 27, 2022.",0
+RHHBY,Diabetic Macular Edema,Approved,2022-01-28 00:00:00,"FDA Approval announced January 28, 2022.",1
+AGTC,Achromatopsia (ACHMB3),Phase 1/2,2022-02-08 00:00:00,"Phase 1/2 3-month data reported that there were no new Suspected Unexpected Serious Adverse Reactions (SUSARs) and that the inflammation continues to improve with steroid treatment, noted February 8, 2022.",1
+PFE,Metastatic non-small cell lung cancer (NSCLC),Phase 3,2022-02-08 00:00:00,"Phase 3 trial did not meet primary endpoints of overall survival, safety profile was consistent with that observed in the overall JAVELIN clinical development program, noted February 8, 2022.",1
+AGIO,Pyruvate kinase deficiency,Approved,2022-02-17 00:00:00,"Approved February 17, 2022.",1
+GILD,HIV,CRL,2022-03-01 00:00:00,"CRL announced March 1, 2022.",0
+PFE,C. difficile Infection,Phase 3,2022-03-01 00:00:00,"Phase 3 trial did not meet primary endpoint, noted March 1, 2022.",1
+TAK,Hepatocellular Carcinoma,Phase 3,2022-03-14 00:00:00,"Phase 3 final OS data reported no improvement, noted March 14, 2022.",1
+AZN,Chronic rhinosinusitis with nasal polyps (CRSwNP),CRL,2022-03-14 00:00:00,"CRL announced March 14, 2022.",0
+VTRS,Asthma or chronic obstructive pulmonary disease (COPD),Approved,2022-03-15 00:00:00,"Approved March 15, 2022.",1
+MRK,Metastatic Castration-Resistant Prostate Cancer,Phase 3,2022-03-15 00:00:00,"Phase 3 trial stopped following the recommendation of an independent Data Monitoring Committee (DMC), noted March 15, 2022.",-1
+EIGR,COVID-19,Phase 3,2022-03-17 00:00:00,"Phase 3 top-line data reported a probability of superiority of 99.91%, with a 60% reduced risk of COVID-19-related death, noted March 17, 2022.",1
+MRNS,CDKL5 Deficiency Disorder (CDD),Approved,2022-03-18 00:00:00,"Approved March 18, 2022.",1
+NVS,Metastatic castration-resistant prostate cancer (mCRPC),Approved,2022-03-23 00:00:00,"Approved March 23, 2022.",1
+MRNA,COVID-19 vaccine - pediatric,Phase 2/3,2022-03-23 00:00:00,"Phase 2/3 data from children 6 months to under 6 years met primary endpoint, noted March 23, 2022.",0
+NVCR,Glioblastoma (GBM),Phase 2,2022-03-24 00:00:00,"Phase 2 updated results reported a median progression-free survival was 12.1 months with median overall survival of 25.2 months, noted March 24, 2022.",0
+IONS,C9orf72-associated Amyotrophic Lateral Sclerosis (ALS),Phase 1,2022-03-28 00:00:00,"Phase 1 study did not meet any secondary efficacy endpoints and it did not demonstrate clinical benefit. These results do not support further development, noted March 28, 2022.",1
+REPL,Liver and kidney transplant recipients with recurrent Cutaneous squamous cell carcinoma,Phase 1/2,2022-03-30 00:00:00,"Phase 1b/2 data reported that two of six patients (33%) achieved a response after treatment, with one complete response and one partial response, noted March 30, 2022.",1
+BMY,Obstructive Hypertrophic Cardiomyopathy,Phase 2/3,2022-04-03 00:00:00,"Phase 2/3 results from EXPLORER-LTE cohort reported that resting LVOT gradient decreased from baseline by an average of -35.6 mmHg ± 32.6 mmHg at Week 48, with 4.3% of participants discontinued treatment, noted April 3, 2022.",1
+WVE,Amyotrophic Lateral Sclerosis and Frontotemporal Dementia,Phase 1/2,2022-04-04 00:00:00,"Phase 1b/2a data reported that reductions in poly(GP) were observed across all active treatment groups, reaching statistical significance versus placebo after single 30 mg doses, noted April 4, 2022.",1
+NVS,PIK3CA-Related Overgrowth Spectrum (PROS),Approved,2022-04-06 00:00:00,"Approval announced April 6, 2022.",1
+PFE,Respiratory syncytial virus (RSV) infections in infants,Phase 2,2022-04-07 00:00:00,"Phase 2 review by the Data Safety Monitoring Committee reported that treatment showed a favorable safety and PK exposure profile to advance to Part B, noted April 7, 2022.",1
+APTX,Neuropathic Pain Associated with Diabetic Peripheral Neuropathy (DPN),Phase 2,2022-04-07 00:00:00,"Phase 2b trial did not achieve statistically significant separation from placebo on the study's primary endpoint, noted April 7, 2022.",1
+CCCC,Hematologic malignancies,Phase 1/2,2022-04-08 00:00:00,"Phase 1/2 data reported 2 dose-limiting toxicities, with 3 stable disease responses, and two progressive disease responses, noted April 8, 2022.",0
+BMY,Non-small-cell lung cancer (NSCLC) and solid tumors,Phase 1/2,2022-04-12 00:00:00,"Phase 1/2 top-line data reported that in the ROS1-positive TKI-naïve advanced NSCLC population the cORR was 79%, with 4 patients receiving a complete response, and 52 having a partial response. With DOR ranging from 1.4+ to 35.1+ months and PFS ranging from 0+ to 40.4+ months, noted April 12, 2022.",0
+ALPN,Advanced Malignancies,Phase 1,2022-04-12 00:00:00,"Phase 1 dose escalation results across a range of dose regimens, tumor volume reduction was observed in 23% of evaluable participants despite heavily pretreated.",1
+TPTX,Non-small-cell lung cancer (NSCLC) and solid tumors,Phase 1/2,2022-04-12 00:00:00,"Phase 1/2 top-line data reported that in the ROS1-positive TKI-naïve advanced NSCLC population the cORR was 79%, with 4 patients receiving a complete response, and 52 having a partial response. With DOR ranging from 1.4+ to 35.1+ months and PFS ranging from 0+ to 40.4+ months, noted April 12, 2022.",0
+BMY,Urothelial cancer,Phase 2,2022-04-14 00:00:00,"Phase 2 trial did not meet the efficacy threshold in its final ORR analysis, noted April 14, 2022.",1
+ANAB,Atopic dermatitis,Phase 1,2022-04-27 00:00:00,"Phase 1 top-line data reported that treatment was well tolerated and a reduction of cell surface BTLA expression on T cells and B cells following dosing, noted April 27, 2022.",1
+SNY,Breast Cancer,Phase 2,2022-04-28 00:00:00,"Phase 2 pivotal trial did not meet it primary endpoint, noted April 28, 2022.",1
+ABBV,Active Ankylosing Spondylitis,Approved,2022-04-29 00:00:00,"Approved April 29, 2022.",1
+PALI,Improvement in bowel function following cardiovascular surgery,Phase 2,2022-05-02 00:00:00,"Phase 2 trial met primary endpoint, noted May 2, 2022.",0
+OCUP,Presbyopia,Phase 2,2022-05-02 00:00:00,"Phase 2 efficacy data reported that 12 or more hours after treatment, 30% of subjects in the POS arm and 14% in the placebo arm had a ≥ 15 letter binocular DCNVA improvement, noted May 2, 2022.",1
+AKTX,Bullous Pemphigoid,Phase 2,2022-05-10 00:00:00,"Phase 2 data showed that 7/9 patients responded to treatment with three, regarded as complete responders, showing >80% reduction in BPDAI activity and four patients showing >70% reduction in pruritis by day 42; two of nine patients were non-responders. None of the nine patients reported grade three, four or five treatment-related adverse events, noted May 10, 2022.",1
+EQRX,T-cell lymphoma / Stage IV non-small cell lung cancer (NSCLC),Phase 2,2022-05-13 00:00:00,"Phase 2 primary analysis reported that trial met its primary endpoint, noted May 13, 2022.",0
+OCUP,Dim Light or Night Vision Disturbances (DLD),Phase 3,2022-05-19 00:00:00,"Phase 3 topline data reported that the trial met the primary endpoint and key secondary endpoints with no serious adverse event, noted May 19, 2022.",0
+MNKD,Pulmonary arterial hypertension and pulmonary hypertension associated with interstitial lung disease (PH-ILD),Approved,2022-05-24 00:00:00,"Approved May 24, 2022.",1
+UTHR,Pulmonary arterial hypertension and pulmonary hypertension associated with interstitial lung disease (PH-ILD),Approved,2022-05-24 00:00:00,"Approved May 24, 2022.",1
+RLFTF,COVID-19,Phase 3,2022-05-25 00:00:00,"Phase 3 DSMB review requested that randomization to aviptadil be stopped due to not meeting the futility guidelines, noted May 25, 2022.",1
+NRXP,COVID-19,Phase 3,2022-05-25 00:00:00,"Phase 3 DSMB review requested that randomization to aviptadil be stopped due to not meeting the futility guidelines, noted May 25, 2022.",1
+EXEL,Recurrent or metastatic head and neck cancer,Phase 2,2022-05-26 00:00:00,"Phase 2 data released on May 26, 2022. The trial met its primary endpoint of objective response rate per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 at 54%. The overall clinical benefit rate was 91%. At a median follow-up of 10.6 months, the one-year progression-free survival rate was 54.0%, and median progression-free survival was 14.6 months. The one-year overall survival (OS) rate was 68.4%. For the 17 patients with a PD-L1 combined positive score (CPS) under 20, the one-year OS rate was 54.9%. For the 17 patients with a CPS score of 20 or more, the one-year OS rate was 83.6%.",1
+BGNE,HER2-positive breast cancer,Phase 1/2,2022-05-26 00:00:00,"Phase 1b/2 data released in abstract reported that the cORR was 90.5% and the six-month progression-free survival rate was 95.2%, noted May 26, 2022.",0
+ETON,"Lennox-Gastaut syndrome, epilepsy",CRL,2022-05-27 00:00:00,"CRL announced May 27, 2022.",0
+RFL,Pancreatic Cancer,Phase 3,2022-06-04 00:00:00,"Phase 3 data presented at ASCO reported that mOS of 11.1 months for CPI-613+mFFX vs. 11.7 months for FFX, noted June 4, 2022.",1
+VERU,Castration Resistant Prostate Cancer,Phase 1/2,2022-06-06 00:00:00,"Phase 1/2 final analysis reported an objective response rate of 20.7% and that the median radiographic progression free survival was 11.4 months, noted June 6, 2022.",0
+PRAX,Major Depressive Disorder,Phase 2/3,2022-06-06 00:00:00,Phase 2/3 data did not achieve statistical significance on the primary endpoint.,1
+IBRX,Pancreatic cancer,Phase 2,2022-06-06 00:00:00,"Phase 2 data from ASCO reported treatment more than doubled median overall survival, noted June 6, 2022.",1
+REGN,Atopic dermatitis in 6 months - 5 year-olds,Approved,2022-06-07 00:00:00,"Approved June 7, 2022.",1
+DTIL,Multiple myeloma,Phase 1/2,2022-06-08 00:00:00,"Phase 1/2 update reported that peak expansion rates observed at DL2 plus the GSI have been equivalent to DL4 monotherapy with no dose limiting toxicities observed, noted June 8, 2022.",1
+MOR,Myelofibrosis,Phase 2,2022-06-10 00:00:00,"Phase 2 efficacy and safety data reported that over two-thirds of JAK inhibitor-naïve patients treated with the combination achieved at least a 35% reduction in spleen volume (SVR35) from baseline at week 24. Notably, 80% of patients achieved SVR35 at any time on study, noted June 10, 2022.",1
+NBIX,Classic congenital adrenal hyperplasia (CAH),Phase 2,2022-06-13 00:00:00,"Phase 2 data reported that median percent reductions ranged from -57.1% to -76.2% and a greater than 50% reduction from baseline for ACTH, 17-OHP, and androstenedione (males and females), testosterone (females), and androstenedione/testosterone ratio (males) was achieved by 63%, 75%, 50%, 60%, and 67% of participants, respectively, noted June 13, 2022.",1
+LLY,Alopecia Areata,Approved,2022-06-14 00:00:00,"Approved June 14, 2022.",1
+NVS,Solid tumors in adult and pediatric patients,Approved,2022-06-22 00:00:00,"Approved June 22, 2022.",1
+ZYNE,Fragile X Syndrome in Children and Adolescents,Phase 3,2022-07-18 00:00:00,"Longterm data reported improvements in ABC-CFXS Social Avoidance in the full population, noted July 18, 2022.",1
+VTGN,Social Anxiety Disorder (SAD),Phase 3,2022-07-22 00:00:00,"Phase 3 trial did not meet primary endpoint, noted July 22, 2022.",1
+HALO,Non-small cell lung cancer (NSCLC),Phase 3,2022-08-01 00:00:00,"Phase 3 trial met co-primary endpoints, noted August 2, 2022. Regulatory filing planned.",0
+CNCE,Alopecia Areata,Phase 3,2022-08-01 00:00:00,"Phase 3 topline data reported that trial met primary endpoint and key secondary endpoint, noted August 1, 2022.",0
+ACIU,Autosomal Dominant Alzheimer's Disease (ADAD,Phase 3,2022-08-02 00:00:00,"Additional Phase 3 data reported that cognitive test scores of API ADAD composite 22.9%, FCSRT 19.9% and RBANS total score 43.8%, noted August 2, 2022.",0
+AZN,HER low breast cancer,Approved,2022-08-05 00:00:00,"Approved August 5, 2022.",1
+MYOV,Endometriosis-associated pain,Approved,2022-08-05 00:00:00,"Approved August 5, 2022.",1
+EQRX,Stage III Non-small cell lung cancer (NSCLC),Phase 3,2022-08-07 00:00:00,"Phase 3 data reported that treatment demonstrated a statistically significant improvement in progression-free survival versus placebo, noted August 7, 2022.",1
+VTYX,Plaque psoriasis,Phase 1,2022-08-15 00:00:00,"Phase 1 data reported that treatment was well-tolerated with a dose-dependent increase in expsoure and target coverage, noted August 15, 2022.",1
+VRDN,Thyroid eye disease (TED),Phase 1,2022-08-15 00:00:00,"Phase 1 study demonstrated that treatment achieved a substantially extended half-life of 30-40 days and the feasibility of a convenient, low-volume, subcutaneous injection paradigm of 2mL 300mg, noted August 15, 2022.",1
+SNY,ER+/HER2- advanced breast cancer,Phase 3,2022-08-17 00:00:00,"Phase 3 trial did not meet the prespecified boundary for continuation following a IDMC review, noted August 17, 2022.",1
+AXSM,Major Depressive Disorder,Approved,2022-08-19 00:00:00,"FDA Approved on August 19, 2022.",1
+AMGN,Paroxysmal nocturnal hemoglobinuria (PNH),Phase 3,2022-08-23 00:00:00,"Phase 3 trial met its primary endpoint, noted August 23, 2022.",0
+ALNY,IgA nephropathy,Phase 2,2022-08-29 00:00:00,"Phase 2 new results demonstrated an equivalent 36% reduction in 24-hour urine total protein and a higher proportion, 32 vs 13%, of patients treated in comparison to placebo, respectively, achieving greater than or equal to 50% reduction in 24-hour UPCR, noted August 29, 2022.",1
+DVAX,COVID-19 vaccine in adolescents,Phase 2/3,2022-08-30 00:00:00,"Phase 2/3 data reported a 12 to 61-fold increase in neutralizing antibodies against BA.5, noted August 30, 2022.",0
+ANAB,Hidradenitis Suppurativa,Phase 2,2022-08-31 00:00:00,"Phase 2 trial did not meet its primary endpoint, noted August 31, 2022.",1
+EXEL,Renal Cell Carcinoma (RCC),Phase 3,2022-09-08 00:00:00,"Phase 3 data presented at ESMO reported that the median PFS was not reached for the triple combination and was 11.3 months for the combination of nivolumab and ipilimumab. Objective response rates in the PFS intent-to-treat population was 43% and 36%, respectively, noted September 8, 2022.",1
+NVS,Breast cancer,Phase 3,2022-09-09 00:00:00,"Phase 3 overall survival data reported a median OS of approximately five years, noted September 9, 2022.",0
+BMY,Solid Tumors,Phase 1b,2022-09-10 00:00:00,"Phase 1b data presented at ESMO demonstrated preliminary clinical activity similar to that observed with cabozantinib in Phase 1 across a range of solid tumors and dose levels, with a manageable safety profile, noted September 10, 2022.",1
+ONTX,KRAS+ Non-Small Cell Lung Cancer,Phase 1/2,2022-09-12 00:00:00,"Phase 1/2a data presented at ESMO showed an early signal of efficacy in an extensively pre-treated population with 1 complete response and 2 partial responses achieved in 14 evaluable patients, noted September 12, 2022.",1
+GRTS,Solid tumors,Phase 1/2,2022-09-12 00:00:00,"Phase 2 portion data from Phase 1/2 trial presented at ESMO demonstrated early evidence of efficacy with a 39% molecular response rate in evaluable patients with late-line microsatellite-stable colorectal cancer (MSS-CRC) and non-small cell lung cancer (NSCLC). Data support moving trial into earlier lines of treatment, noted September 12, 2022.",1
+PHRRF,Levodopa-induced dyskinesia in Parkinson's disease,Phase 1/2,2022-09-15 00:00:00,"Phase 1/2 data reported a 51% reduction of UDysRS at infusion 2, and 41% reduction by 3 months post infusion. Treatment data demonstrated that 100% of subjects treated with ketamine had a reduction in dyskinesias, noted September 16, 2022.",1
+OMER,COVID-19,Phase 2,2022-09-15 00:00:00,"Phase 2 data reported that neither the futility nor graduation criteria were met in the analysis of the randomized population at the time the narsoplimab arm was terminated, noted September 15, 2022.",-1
+AZN,Paroxysmal nocturnal hemoglobinuria (PNH),Phase 3,2022-09-16 00:00:00,"Phase 3 trial met primary endpoint at interim analysis, noted September 16, 2022.",0
+WVE,Huntington’s disease,Phase 1/2,2022-09-20 00:00:00,"Phase 1b/2a data reported a mean mHTT reduction across both cohorts of 22%, noted September 20, 2022.",1
+EQ,Systemic lupus erythematosus (SLE) and lupus nephritis (LN),Phase 1b,2022-09-27 00:00:00,"Phase 1b interim data demonstrated clinically meaningful response in highly proteinuric subjects: 5 of 6 (83%) subjects achieved a complete or partial response and 4 of 6 (67%) subjects achieved > 80% reduction in urine protein creatinine ratio (UPCR) by week 28, 8 of 12 (67%) subjects achieved > 50% reduction in UPCR (6 subjects still dosing). The treatment continues to demonstrate favorable safety and tolerability through six months, noted September 27, 2022.",1
+REGN,Prurigo nodularis (PN),Approved,2022-09-28 00:00:00,"Approved September 28, 2022.",1
+AXLA,Non-alcoholic steatohepatitis (NASH) / non-alcoholic fatty liver disease (NAFLD),Phase 2b,2022-09-29 00:00:00,"Additional Phase 2b data reported statistically significant improvements in the liver stiffness measurement (LSM) compared to placebo in the high dose arm for all subjects, noted September 29, 2022.",1
+IMGN,Ovarian cancer and relapsed endometrial cancer,Phase 1/2,2022-09-29 00:00:00,"Additional Phase 1b/2 data reported that ORR was 71% and carboplatin AUC5 had an ORR of 89%, noted September 29, 2022.",0
+AMLX,Amyotrophic lateral sclerosis (ALS),Approved,2022-09-29 00:00:00,"Approved September 29, 2022.",1
+GRTS,Non-small cell lung cancer (NSCLC) and colorectal cancer (CRC),Phase 2,2022-09-30 00:00:00,"Phase 2 initial data presented at ESMO noted a 39% molecular response rate (MRR), noted September 2022.",1
+BLTE,Adolescent Stargardt disease (STGD1),Phase 1/2,2022-10-01 00:00:00,"Phase 1b/2 trial 1-year interim data from the 2-year treatment in adolescent data reported that data showed stabilization in several parameters, including halting or slowing lesion growth, preservation in retinal thickness, reduction in Ellipsoid Zone (EZ) defect width, and stabilization of visual acuity, noted October 1, 2022.",1
+ORMP,COVID-19 vaccine,Phase 1,2022-10-07 00:00:00,"Phase 1 preliminary results reported a significant antibody response (2-6 fold over baseline) and no safety issues observed, noted October 7, 2022.",1
+CLVS,FAP-positive tumors,Phase 1/2,2022-10-17 00:00:00,"Phase 1 update at EANM noted that of 5 patients 45.5% had a Grade >3 treatment related adverse event, noted October 17, 2022.",1
+GSK,Meningococcal disease,Approved,2022-10-17 00:00:00,"Approved October 17, 2022.",1
+EYEN,Presbyopia,Phase 3,2022-10-20 00:00:00,"Phase 3 data reported that trial met its primary endpoint in a modified per-protocol analysis of evaluable patients, and adverse events were reported in fewer than 3% of patients, and all were mild and/or transient, noted October 20, 2022.",1
+SCYX,Invasive candidiasis,Phase 3,2022-10-24 00:00:00,"Additional Phase 3 cumulative interim analysis presented at IDWeek showed 82.3% positive clinical outcomes in patients treated with treatment, all-cause mortality analysis showed 94.6% survival 30 days post-therapy in patients with invasive candidiasis or candidemia who were treated.",1
+AZN,Hepatocellular carcinoma (HCC),Approved,2022-10-24 00:00:00,"Approved October 24, 2022.",1
+JNJ,Ulcerative colitis,Phase 2b,2022-10-24 00:00:00,"Phase 2b study data reported that treatment led to a mean of 52.1 percent of IV TREMFYA week 12 clinical nonresponders to achieve clinical response at week 24, noted October 24, 2022.",1
+MRUS,Solid Tumors,Phase 3,2022-10-26 00:00:00,"Phase 1/2 update reported that treatment was well-tolerated, with 2 confirmed partial responses observed and 4 additional patients had >20% tumor shrinkage, noted October 26, 2022.",1
+KURA,Head and Neck Squamous Cell Carcinoma,Phase 1/2,2022-10-26 00:00:00,"Phase 1/2 data reported that one patient experienced experienced an 81% reduction in target lesions after one cycle, noted October 26, 2022.",1
+CYCC,Advanced cancers,Phase 1/2,2022-10-26 00:00:00,"Phase 1/2 dose escalation data reported that of the 18 patients evaluable for response, two out of three T cell lymphoma patients treated achieved partial response and 11 out of 15 patients with various solid tumors achieved stable disease, noted October 26, 2022.",1
+SNY,Prurigo nodularis (PN),Approved,2022-10-27 00:00:00,Approved in 3Q 2022.,1
+EPIX,Castrate resistant prostate cancer,Phase 1,2022-10-31 00:00:00,"Phase 1 trial enrollment suspending October 31, 2022",0
+ABUS,Hepatitis B virus (HBV),Phase 2,2022-11-01 00:00:00,"Phase 2 preliminary data from 65 patients randomized to receive AB-729+VBR+NA (n=32), AB-729+NA (n=17) or VBR+NA (n=16) for 48 weeks showed that adding VBR to AB-729+NA does not result in greater on-treatment improvements in markers of HBV infection as compared to AB-729+NA alone, noted November 1, 2022.",1
+KDNY,Chronic kidney disease,Phase 2,2022-11-03 00:00:00,"Interim data reported that of the 20 patients enrolled, ten patients remained on study, nine patients completed 52 weeks of treatment and one patient discontinued after 13 weeks of treatment due to a headache. Treatment demonstrated mean reductions in 24-hour urine protein creatinine ratio (UPCR) of 38.1% at six weeks of treatment, 48.3% at 12 weeks of treatment and 54.7% at 24 weeks of treatment, noted November 3, 2022.",1
+FATE,Acute Myelogenous Leukemia / B-cell Lymphoma,Phase 1,2022-11-03 00:00:00,"Phase 1 data reported an 80% objective response rate for CAR T Naive versus 38% for prior CAR T patients, noted December 13, 2021. Received RMAT designation November 3, 2022.",0
+BNTX,COVID-19 vaccine,Phase 2/3,2022-11-04 00:00:00,"Phase 2/3 clinical trial demonstrated robust neutralizing immune response one month after a 30-µg booster dose of the COVID-19 vaccine (Pfizer-BioNTech COVID-19 Vaccine, Bivalent (Original and Omicron BA.4/BA.5)). Omicron BA.4/BA.5-neutralizing antibody titers increased 13.2-fold from pre-booster levels in adults older than 55 years of age and 9.5-fold in adults 18 to 55 years of age, noted November 4, 2022.",1
+ABBV,Post-Operative Atrial Fibrillation (POAF) in patients undergoing open-chest cardiac surgery,Phase 2,2022-11-07 00:00:00,"Phase 2 data reported that primary endpoint was not met, noted November 7, 2022.",0
+ICPT,FXR Effect on Severe Alcohol-Associated Hepatitis,Phase 1,2022-11-08 00:00:00,"Phase 1 data reported that treatment was generally well tolerated in healthy subjects. No serious adverse events were reported, noted November 8, 2022.",1
+ADAP,Urothelial Cancer,Phase 1,2022-11-08 00:00:00,"Phase 1 data reported increased ORR now 57% in urothelial cancer with one new complete response, noted November 8, 2022.",0
+ADAP,Ovarian Cancer,Phase 1,2022-11-08 00:00:00,"Phase 1 data reported an increased ORR now 43% in ovarian cancer with one new response, noted November 8, 2022.",0
+CNTX,Endometrial Cancer,Phase 2,2022-11-09 00:00:00,"Phase 2 interim data demonstrated preliminary 4-month PFS rate of 77.7%, noted November 9, 2022.",1
+PRAX,Major depressive disorder,Phase 2,2022-11-09 00:00:00,"Phase 2 top-line data was not statistically significant, noted November 9, 2022.",0
+ONCY,"Colorectal and advanced anal cancers, pancreatic cancer",Phase 1/2,2022-11-10 00:00:00,"Phase 1/2 data reported a 69% objective response rate (ORR), noted November 11, 2022.",0
+XNCR,"Solid tumors, prostate cancer",Phase 2,2022-11-10 00:00:00,"Phase 2 data reported that prostate-specific antigen (PSA) reductions of more than 50% from baseline (PSA50) had been observed in three of nine patients, noted November 10, 2022.",1
+BMY,Resectable Stage III melanoma,Phase 1,2022-11-10 00:00:00,"Phase 1 data presented at SITC showed that 100% of patients who received the triple combination were recurrence free at 24 months. This contrasted with recurrence free survival of less than 40% in patients who received the dual combination of pepinemab and nivolumab or pepinemab and ipilimumab, noted November 10, 2022.",1
+ASND,Solid tumors,Phase 1/2,2022-11-11 00:00:00,"Phase 1/2 data reported that early signs of clinical activity were observed with sustained target immune system engagement over weeks, noted November 11, 2022.",1
+SRNE,Rheumatoid Arthritis,Phase 1b,2022-11-13 00:00:00,"Full results of the Phase 1b proof of concept study noted that switching from once weekly 50 mg SC injections to once weekly 25 mg lymphatic delivery significantly reduced disease activity without local adverse events or drug delivery-related immune responses, noted November 14, 2022.",1
+INFI,Front-line triple negative breast cancer (TNBC); Renal cell cancer (RCC),Phase 2,2022-11-14 00:00:00,"Phase 2 data reported a 52% increase in one-year progression free survival rate in ITT patient population, noted November 14, 2022.",0
+VRDN,"Healthy volunteers, thyroid eye disease",Phase 1,2022-11-14 00:00:00,"Phase 1 data reported that treatment was well tolerated with no reported serious adverse events, noted November 14, 2022.",1
+IMGN,Platinum-Resistant Ovarian Cancer,Approved,2022-11-14 00:00:00,"Approved November 14, 2022.",1
+ARVN,Breast cancer,Phase 2,2022-11-22 00:00:00,"Phase 2 data continued to show activity in heavily pre-treated patients with locally advanced or metastatic ER+/HER2- breast cancer, Median PFS of 3.7 months in all patients and 5.7 months in patients with ESR1 mutant tumors support the initiation of two Phase 3 registrational trials, noted November 22, 2022. Phase 3 monotherapy trial enrollment to be completed by 2H 2024.",1
+YMAB,CNS/Leptomeningeal Metastases from Neuroblastoma,CRL,2022-12-01 00:00:00,"CRL issued by FDA on December 1, 2022.",0
+VNDA,Social and Performance Anxiety,Phase 2,2022-12-02 00:00:00,"Phase 2 trial results expected end of 2022, Phase 2 is full enrolled as of August 3, 2022. Phase 2 results showed that participants who received VQW-765 showed numerically lower stress levels compared to those who received placebo. In particular, female participants (approximately 70% of the total participants) reported a larger magnitude and statistically significant response, noted December 2, 2022.",1
+XENE,Adult Focal Epilepsy,Phase 2b,2022-12-04 00:00:00,"Additional Phase 2b data reported that seizure freedom for ≥6-month and ≥12-month consecutive durations was achieved in 17.5% and 10.5% of patients, respectively, noted December 4, 2022.",1
+VOR,Acute myeloid leukemia (AML),Phase 1/2,2022-12-07 00:00:00,"Phase 1/2a trial data from first patients reported that treatment engrafted normally and blood count was successfully maintained following post-transplant treatment, noted December 7, 2022.",1
+ONCY,Breast cancer,Phase 1,2022-12-08 00:00:00,"Additional dat presented at the San Antonio Breast Cancer Symposium (SABCS) reported that disease control, partial response (PR) or stable disease (SD), was achieved in thirteen of fourteen evaluable patients (93%), with twelve (86%) showing tumor shrinkage from baseline, with 50% achievign a partial response, noted December 8, 2022.",1
+BPMC,Advanced Systemic mastocytosis (SM),Phase 1,2022-12-12 00:00:00,"Phase 1 data reported that 17 (25%) patients had disease progression, including 7 who progressed to acute myeloid leukemia. Median OS was NR in all AdvSM, ASM, and MCL, and was 46.9 months, noted December 12, 2022.",0
+AZN,B-cell non-Hodgkin lymphoma,Phase 1,2022-12-12 00:00:00,"Phase 1 trial interim results presented at ASH reported that response-evaluable FL subjects treated at ≥ 800µg, the ORR was 88% (7/8 subjects); all responding subjects achieved a CR, noted December 12, 2022.",1
+AZN,Relapsed/Refractory Diffuse Large B-Cell Lymphoma (r/r DLBCL),Phase 1/2,2022-12-12 00:00:00,"Phase 1b/2a results presented at ASH reported one CR and one PR in cohort 1, with three CR and two PR in cohort 2, noted December 12, 2022.",1
+GLTO,Myelofibrosis,Phase 2a,2022-12-12 00:00:00,"Phase 2a data presented at ASH reported that no significant safety concerns were observed to date, noted December 12, 2022.",1
+AFMD,CD30-positive lymphomas,Phase 1/2,2022-12-12 00:00:00,"Presentation reported a 97% ORR in HL patients, a 75% ORR in CD30+ NHL patients, and 9 patients in PR after C1 converted to a CR after C2, noted December 12, 2022.",1
+ADPT,Relapsed/Refractory Multiple Myeloma,Phase 1/2,2022-12-12 00:00:00,"Phase 1/2 final data reported that treatment significantly improved the degranulation of NK cells after 4-hour stimulation with K562 or PMA/Ionomycin, noted December 12, 2022.",1
+AUTL,Adult Acute lymphoblastic leukemia (ALL) / Chronic Lymphocytic Leukemia (CLL) / B-cell non-Hodgkin Lymphoma (B-NHL),Phase 1/2,2022-12-12 00:00:00,"Longer term extension trial data reported that 35% of adult relapsed/refractory B-ALL patients treated with obe-cel in sustained complete remissions between 24 and 47 months without any need for additional anti-leukemia therapy, noted December 12, 2022.",1
+BYSI,Docetaxel-induced neutropenia in breast cancer,Phase 2/3,2022-12-13 00:00:00,"Additional data reported that plinabulin was superior vs no-treatment for DIN and hematologic complications, noted December 13, 2022.",1
+ADMA,Primary humoral immunodeficiency,Approved,2022-12-13 00:00:00,FDA supplemental approval for room temperature (25°C) storage conditions for up to 4 weeks during the first 24 months of the 36-month approved shelf life.,1
+SYBX,Enteric Hyperoxaluria,Phase 1b,2022-12-15 00:00:00,"Phase 1b study results and proof of concept data reported a 38% reduction in urinary oxalate compared to placebo, noted December 15, 2022.",1
+ABBV,Major depressive disorder (MDD),Approved,2022-12-19 00:00:00,"Approved December 19, 2022.",1
+ATAI,Opioid Use Disorder,Phase 1,2022-12-23 00:00:00,"Additional results from part 2 showed that a single dose was generally well tolerated and was observed to produce analgesic effects on CPT comparable to those seen in Part 1 of this trial, noted December 23, 2022.",1
+AMTI,Ulcerative colitis,Phase 2,2022-12-23 00:00:00,"Phase 2 data at week 12 resulted in lower clinical remission (CR) rate in patients treated was 17.1% (12/70 patients) compared to a CR rate of 20.0% (7/35 patients) with placebo, noted December 23, 2022.",1
+PFE,Hemophilia B,Phase 3,2022-12-29 00:00:00,"Phase 3 trial met primary endpoint, noted December 29, 2022.",0
+TAK,Congenital thrombotic thrombocytopenic purpura (cTTP),Phase 3,2023-01-05 00:00:00,"Phase 3 data reported that treatment reduced the incidence of thrombocytopenia events by 60%, noted January 5, 2023.",1
+PHAT,Non-erosive reflux disease (NERD),Phase 3,2023-01-08 00:00:00,"Phase 3 trial met primary endpoint in both 10 mg and 20 mg doses, noted January 8, 2023.",0
+ORMP,Type 2 Diabetes,Phase 3,2023-01-12 00:00:00,https://www.biopharmcatalyst.com/company/ORMP/news/110598,0
+BGNE,First-line chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL),Approved,2023-01-19 00:00:00,"Approved January 19, 2023.",1
+LLY,Alzheimer's Disease,CRL,2023-01-20 00:00:00,"CRL received for accelerated approval application, noted January 20, 2023.",1
+ACIU,Alzheimer's disease-like characteristics in individuals with Down syndrome,Phase 1/2,2023-01-26 00:00:00,"Phase 1b/2 trial early results from the first cohort showed that low dose could elicit an anti-Abeta antibody response as soon as week 6 (2 weeks after the second injection). The data show that ACI-24.060 vaccination has been safe and well tolerated to date, noted January 26, 2023",1
+EOLS,Aesthetics,Phase 2,2023-01-28 00:00:00,"Phase 2 interim data presented at the 2023 IMCAS World Congress on indicated that the ""extra-strength"" formulation at 40U (units) achieved a duration profile of 6 months or 26 weeks, noted January 28, 2023.",1
+LSTA,Pre-dialysis chronic kidney disease,Phase 1b,2023-02-06 00:00:00,"Phase 1b data reported that treatment was safe and well-tolerated by patients with no serious adverse events related to the therapy, noted February 6, 2023.",1
+PFE,Atopic dermatitis in adolescents,Approved,2023-02-10 00:00:00,"Approved February 10, 2023.",1
+RGNX,Neovascular Age-related macular degeneration (AMD),Phase 2,2023-02-11 00:00:00,"Phase 2 PK data reported that treatment was well tolerated with five SAEs reported and protein concentrations in the eye were similar between the manufacturing processes, noted February 11, 2023.",1
+OPTN,Chronic sinusitis,Phase 3,2023-02-16 00:00:00,"Phase 3 trial met both co-primary endpoints, noted March 7, 2022. Phase 3 additional analysis reported that patients experienced a spectrum of benefits on symptoms and quality of life, as well improvement in objective measures of disease, relative to patients receiving a placebo comparator, noted July 8, 2022. Phase 3 pre-planned analysis of pooled data revealed 66% reduction in sinusitis exacerbations (flares) with treatment compared to placebo, noted July 13, 2022. sNDA submitted to FDA on February 16, 2023",1
+TOVX,Allogeneic hematopoietic cell transplantation (HCT) for the prevention of acute graft-versus-host-disease (aGVHD),Phase 1/2,2023-02-16 00:00:00,"Phase 1b/2a data reported that no AEs or SAEs were determined to be related to study drug treatment by the investigators, noted February 16, 2023.",1
+AURA,Uveal melanoma including choroidal melanoma,Phase 2,2023-02-16 00:00:00,"Phase 2 safety and efficacy data presented with an average of nine months of follow-up for patients treated with three cycles of therapy showed response to the therapy with 89-100% tumor control, noted February 16, 2023.",1
+GILD,Metastatic urothelial cancer (mUC),Phase 2,2023-02-17 00:00:00,"Phase 2 data demonstrated the efficacy of 13.5 Months overall survival in patients, noted February 17, 2023.",1
+APLS,Geographic atrophy (GA),Approved,2023-02-17 00:00:00,"FDA Approval on February 17, 2023.",1
+SNY,Hemophilia A,Approved,2023-02-23 00:00:00,"Approved February 23, 2023.",1
+CDXS,Exocrine pancreatic insufficiency (EPI),Phase 1,2023-02-23 00:00:00,"Phase 1 interim data reported that no safety issues occurred, with no SAEs or discontinuations, noted February 23, 2023.",-1
+REGN,Polymyalgia rheumatica (PMR),Approved,2023-02-28 00:00:00,"Approved February 28, 2023.",1
+MRK,Ulcerative colitis,Phase 2,2023-03-01 00:00:00,"Phase 2 trial met all ranked secondary endpoints, noted March 1, 2023.",0
+CHRS,Pegfilgrastim biosimilar,Approved,2023-03-06 00:00:00,"Autoinjector approved March 6, 2023.",1
+ACRS,Hidradenitis suppurativa,Phase 2a,2023-03-06 00:00:00,"Phase 2a study did not meet primary and secondary endpoints, noted March 6, 2023.",1
+ARMP,Pseudomonas aeruginosa Infections and Cystic Fibrosis,Phase 1/2,2023-03-06 00:00:00,"Phase 1/2 top-line data reported that treatment was well-tolerated with a proportional increase in exposure as measured in induced sputum, noted March 6, 2023.",1
+FRTX,Atopic dermatitis,Phase 1,2023-03-07 00:00:00,"Phase 1 topline results reported that treatment was well tolerated and plasma concentrations within the potential therapeutic dose range were consistent with efficacious exposure levels established in nonclinical disease models, noted March 7, 2023.",1
+MRK,Non-small cell lung cancer (NSCLC),Phase 2,2023-03-16 00:00:00,"Phase 2 trial did not meet primary endpoint, noted March 16, 2023.",1
+PHIO,Melanoma,Phase 1b,2023-03-22 00:00:00,"Phase 1b safety data reported no dose-limiting toxicity, and no drug-related severe adverse events or serious adverse events, noted March 22, 2023.",0
+REGN,Homozygous familial hypercholesterolemia (HoFH) in children,Approved,2023-03-22 00:00:00,"Approved March 22, 2023.",1
+CDTX,Candidemia,Approved,2023-03-22 00:00:00,"FDA approval on March 22, 2023.",1
+PHAR,Activated phosphoinositide 3-kinase delta syndrome (APDS),Approved,2023-03-24 00:00:00,"Approved March 24, 2023.",1
+CGTX,Mild-to-Moderate Alzheimer's Disease,Phase 2,2023-03-28 00:00:00,"Phase 2 biomarker data reported that treatment resulted in a significant shift in levels of prion protein (PRPN), noted March 28, 2023.",1
+ANEB,Cannabinoid Intoxication,Phase 2a,2023-03-28 00:00:00,"Phase 2 met the primary endpoint in all cochorts, noted March 28, 2023",0
+CYTK,Amyotrophic lateral sclerosis (ALS),Phase 3,2023-03-31 00:00:00,"DMC review recommended the discontinuation of the trial due to futility, noted March 31, 2023.",-1
+ONCT,Mantle cell lymphoma (MCL),Phase 3,2023-04-03 00:00:00,"Phase 3 trial closed due to company strategic prioritization, noted April 3, 2023.",0
+IFRX,COVID-19,Phase 3,2023-04-04 00:00:00,"FDA granted an Emergency Use Authorization (EUA), noted April 4, 2023.",0
+MRK,Colorectal cancer,Phase 3,2023-04-07 00:00:00,"Phase 3 trial did not meet primary endpoint, noted April 7, 2023.",1
+MRK,Metastatic melanoma,Phase 3,2023-04-07 00:00:00,"Phase 3 trial did not meet primary endpoint, noted April 7, 2023.",1
+TAK,Primary immunodeficiency (PI) in children 2-16 years old,Approved,2023-04-11 00:00:00,"Approved April 11, 2023.",1
+VACC,Human papillomavirus (HPV),Phase 1/2,2023-04-17 00:00:00,"Additional Phase 1/2a data reported that treatment was generally well-tolerated and was administered with no product-related grade 3 unsolicited adverse events and no product-related SAEs, noted April 17, 2023.",1
+CLLS,Clear cell renal cell carcinoma (ccRCC),Phase 1,2023-04-17 00:00:00,"Phase 1 presentation at AACR reported early anti-tumor activity with deepening responses over time, noted April 17, 2023.",1
+RPTX,Solid tumors,Phase 1/2,2023-04-18 00:00:00,"Phase 1/2 initial data reported a 48% CBR in patients with unmet medical needs and a 32% overall response, 58% CBR and mPFS of approximately 7 months, noted April 18, 2023.",0
+EVAX,Adjuvant melanoma,Phase 1/2,2023-04-18 00:00:00,"Phase 1/2a data presented at AACR met both primary endpoints on safety, tolerability and immunogenicity and secondary endpoint on clinical efficacy., noted April 18, 2023.",1
+EXAI,High adenosine signature cancers,Phase 1,2023-04-19 00:00:00,"Phase 1 objectives were achieved in a healthy volunteer study, confirming pharmacokinetics, pharmacodynamics, safety, and tolerability, allowing selection of a starting dose for the ongoing IGNITE Phase 1/2 study ​​in combination with a PD-1 inhibitor in patients with RCC and NSCLC, noted April 19, 2023",1
+HCM,Non-small cell lung cancer (NSCLC),Phase 2,2023-04-19 00:00:00,"Phase 2 poster reported that the median PFS with vs without clearance was 11.0 vs 4.1 months in pts with IHC90+ or FISH10+ tumors, noted April 19, 2023.",0
+ACHV,E-cigarette & vape cessation,Phase 2,2023-04-20 00:00:00,"Phase 2 topline data reported a 2.6 times higher odds, or likelihood, to have quit vaping during the last 4 weeks of treatment compared to subjects who received placebo (p=0.035). The vaping cessation rate during weeks 9-12 was 31.8% for cytisinicline compared to 15.1% for placebo, noted April 20, 2023.",1
+NVS,Relapsing Multiple Sclerosis,Phase 3,2023-04-20 00:00:00,"Phase 3 5-year data reported that more than 80% of patients remained free of six-month CDW, noted April 20, 2023.",0
+PFE,Metastatic uveal melanoma (MUM),Phase 2,2023-04-23 00:00:00,"Phase 2 darovasertib and crizotinib combination data reported a cORR of 45%, DCR of 90% and median PFS of ~7 months in 20 evaluable First-Line MUM patients, noted April 23, 2023.",1
+UBX,Diabetic macular edema / Age-related macular degeneration,Phase 2a,2023-04-24 00:00:00,"Phase 2 48-week data demonstrated that a single injection of UBX1325 treatment led to a statistically significant improvement in vision lasting for the duration of the study (48 weeks), marked by a gain of +6.2 ETDRS letters from baseline, representing a difference of +5.6 ETDRS letters compared to sham-treated patients, noted April 24, 2023.",1
+IONS,Amyotrophic lateral sclerosis (SOD1-ALS),Approved,2023-04-25 00:00:00,"FDA granted accelerated approval on April 25, 2023.",1
+DNLI,Amyotrophic lateral sclerosis (ALS),Phase 1b,2023-04-25 00:00:00,"Phase 1b data due presented at AAN reported low variability, predictable dose-related increases in exposure, and a half-life supporting once-daily dosing, noted April 25, 2023.",1
+PFE,Pneumococcal Disease,Approved,2023-04-27 00:00:00,"Approved on April 27, 2023.",1
+LIPO,Hemorrhagic cystitis,Phase 2a,2023-04-30 00:00:00,"Phase 2a results presented at AUA reported that treatment was tolerated without report of product related serious adverse events, noted April 30, 2023.",1
+PFE,Nonmetastatic Prostate Cancer (nmCSPC),Phase 3,2023-05-01 00:00:00,"Additional Phase 3 data reported that treatment reduced the risk of metastasis or death by 58% versus placebo plus leuprolide, noted May 1, 202",1
+NVO,Hemophilia A,CRL,2023-05-04 00:00:00,CRL received in 2Q 2023.,0
+SABS,Type A and Type B influenza,Phase 2a,2023-05-04 00:00:00,"Phase 2a first fully-human multi-epitope binding broadly neutralizing immunoglobulin antibody therapeutic being developed for treatment of high-risk patients demonstrates safety and efficacy in Phase 1 and 2a trials, noted May 4, 2023",1
+RETA,Chronic Kidney Disease,Phase 2,2023-05-10 00:00:00,"Program discontinued, noted May 10, 2023.",-1
+GSK,"Meningitis, meningococcal disease caused by serogroups A, B, C, W and Y",Phase 3,2023-05-12 00:00:00,"Phase 3 data reported that the trial met all primary endpoints, noted May 12, 2023.",0
+CELC,ER+/HER2- Breast Cancer,Phase 1b,2023-05-12 00:00:00,"Phase 1b data shared at ESMO Breast Cancer reported that for treatment-naïve patients median PFS was 45.8 months and 48.6 months in the expansion arm, noted May 12, 2023.",1
+CABA,Pemphigus vulgaris,Phase 1,2023-05-18 00:00:00,"Phase 1 presented at ASGCT reported that no DLTs were observed and no clear pattern of changes in anti-DSG3 autoantibody levels across dosing cohorts were observed despite increased DSG3-CAART cell persistence, noted May 18, 2023.",1
+CADL,Glioma,Phase 1,2023-05-19 00:00:00,"Additional Phase 1 data presented at ASGCT reported a median overall survival rate at 11.8 months after a single injection, noted May 19, 2023.",1
+ABBV,Relapsed or Refractory Diffuse Large B-Cell Lymphoma (DLBCL),Approved,2023-05-19 00:00:00,"Approved May 19, 2023.",1
+GMAB,B-cell Lymphoma (DLBCL),Approved,2023-05-22 00:00:00,"Approved May 19, 2023.",1
+OPNT,Opioid Overdose,Approved,2023-05-23 00:00:00,"Approved May 22, 2023.",1
+LEXX,Cardiovascular disease (CVD),Phase 1,2023-05-23 00:00:00,"Trial data reported that trial met primary endpoint and five weeks of treatment with the patented DehydraTECH-processed cannabidiol (CBD) capsule formulation, blood-plasma levels of interleukin (IL) 8, 10, and 18 were reduced by ~19%, ~27%, and ~43%, respectively, noted May 23, 2023.",1
+APLT,Sorbitol Dehydrogenase Deficiency (SORD Deficiency),Phase 2,2023-05-25 00:00:00,"Phase 2 EMA granted Orphan medicinal product designation, noted May 25, 2023.",0
+ARAV,Clear Cell Renal Cell Carcinoma (ccRCC),Phase 1/2,2023-05-25 00:00:00,"Updated Phase 1b/2 data from ASCO abstract reported an objective response rate (ORR) of 50% in this population (n=12), compared to 38% (n=13) in patients with no prior VEGF-TKI, noted May 25, 2023.",0
+XLO,Solid Tumors,Phase 1,2023-05-25 00:00:00,"Phase 1 preliminary anti-tumor activity observed in a patient with PD-L1 negative advanced non-small cell lung cancer, favorable preliminary safety profile for XTX101 observed at the recommended Phase 2 dose of 150 mg once every six weeks, noted May 25, 2023.",1
+RAIN,Solid tumors with loss of CDKN2A Gene,Phase 1,2023-05-30 00:00:00,"Phase 1 basket trial to be terminated, noted May 5, 2023.",-1
+DTIL,Non-Hodgkin Lymphoma (NHL),Phase 1,2023-05-31 00:00:00,"Phase 1 update reported a 71% ORR and 43% CR rate, noted May 31, 2023.",0
+ZLAB,Ovarian cancer,Phase 3,2023-06-01 00:00:00,"Phase 3 data reported a complete and partial responses, both confirmed, were observed in 12 (25.5%) and 15 (31.9%) niraparib-treated patients and 3 (11.5%) and 5 (19.2%) placebo-treated patients, respectively, leading to a confirmed ORR of 57.4% with niraparib and 30.8% with placebo, noted June 1, 2023.Phase 3 data reported a complete and partial responses, both confirmed, were observed in 12 (25.5%) and 15 (31.9%) niraparib-treated patients and 3 (11.5%) and 5 (19.2%) placebo-treated patients, respectively, leading to a confirmed ORR of 57.4% with niraparib and 30.8% with placebo, noted June 1, 2023.",1
+DBTX,Cisplatin-induced hearing loss,Phase 1b,2023-06-01 00:00:00,"Phase 1b data reported that ear pain (15/19 subjects, 78.9%) and tinnitus (8/19 subjects, 42.1%) were common and the overall study objectives were met at this interim analysis, noted June 1, 2023.",0
+PFE,Solid Tumors,Phase 1,2023-06-03 00:00:00,"Phase 1 data at ASCO reported that treatment-emergent adverse events (TEAEs) were observed in 88.5% of pts: 50.7% were Grade ≥ 3 (21.6% related), and 37.2% were serious (8.1% related); 6.1% of pts discontinued treatment due to TEAEs, noted June 3, 2023.",1
+CHRS,Metastatic or recurrent triple-negative breast cancer (TNBC),Phase 3,2023-06-03 00:00:00,"Phase 3 data presented at ASCO reported a statistically significant improvement in PFS by BICR was demonstrated for the toripalimab arm in the PD-L1 positive subgroup, noted June 3, 2023.",1
+INCY,Solid Tumors,Phase 1/2,2023-06-03 00:00:00,"Phase 1/2 data from ASCO reported that the best overall response in part 1 was stable disease, and in part 2 was a confirmed and durable partial response in 1 pt, noted June 3, 2023.",0
+LGND,ER+/HER2- Breast Cancer,Phase 2,2023-06-05 00:00:00,"Phase 2 data presented at ASCO reported that PFS was 56.0 wks (~13 mos), CBR was 65.5%, and ORR was 55.6%, noted June 5, 2023.",1
+REPL,Non-melanoma (NMSC) / Non-small cell lung cancer NSCLC),Phase 1,2023-06-05 00:00:00,"Phase 1 data reported an overall objective response rate (ORR) of 37.4%, noted June 5, 2023.",0
+CUE,HPV+ head and neck squamous cell carcinoma (HNSCC),Phase 1b,2023-06-05 00:00:00,"Phase 1b additional data presented at ASCO reported that among 12 evaluable RP2D combination patients to date, 5 PRs, and 2 durable SDs have been observed, with 71% (5/7) of patients expressing PD-L1 CPS ≤ 20, noted June 5, 2023.",1
+PFE,Colorectal cancer and gastrointestinal (GI) cancer,Phase 1/2,2023-06-05 00:00:00,"Initial Phase 1b/2 data showed a 50% response rate, including two confirmed partial responses (cPR) and one unconfirmed partial response (uPR), and 67% disease control rate in EC-naïve response evaluable patients at the highest dose of ERAS-007 tested (100 mg BID-QW), development deprioritized as clinical efficacy data do not support continued evaluation, noted June 5, 2023",1
+GILD,Refractory Large B-cell Lymphoma,Phase 1,2023-06-05 00:00:00,"Phase 1 data presented at ASCO showed that Yescarta is the first treatment in nearly 30 years to demonstrate a significant improvement in survival in this patient population. The treatment resulted in a 27.4% Reduction in Risk of Death, Corresponding to a 38% Relative Improvement in OS, Despite 57% of Patients Subsequently Receiving Cell Therapy Off Protocol, noted June 5, 2023",1
+RCKT,Arrhythmogenic Cardiomyopathy,Phase 1,2023-06-08 00:00:00,https://www.biopharmcatalyst.com/company/RCKT/news/140814,0
+IMGN,"Relapse/Refractory AML, ALL, BPDCN",Phase 2,2023-06-09 00:00:00,"Phase 2 interim data reported that the objective response rate was 73% (22/30 patients), and an additional patient achieved a CR post-transplant, noted June 9, 2023.",1
+GSK,Multiple Myeloma,Phase 1/2,2023-06-09 00:00:00,"Phase 1/2 data presented at EHA Data from 34 patients with low-dose and 37 patients with monotherapy are presented. Patients had a median (range) age of 68 (48–81) years and a median (range) of 5 (3–14) prior lines of therapy. As of the data cutoff (Dec 9, 2022), patients received a median (range) of 4 (1–20) cycles of the combination and 3 (1–9) monotherapy cycles. For the combination and monotherapy arms, respectively, ORR was 29% (95% CI 15.1, 47.5) and 38% (22.5, 55.2) (Table). Incidence of Grade ≥3 adverse events was 76% and 65%, noted June 9, 2023.",1
+OCUL,Wet Age-related Macular Degeneration (AMD),Phase 1,2023-06-10 00:00:00,"Phase 1 topline data presented at the Clinical Trials at the Summit 2023 Meeting maintained vision and CSFT comparable to aflibercept every eight weeks, with 89% reduction in treatment burden over a 12-month period,noted June 10, 2023",1
+NTLA,Hereditary angioedema (HAE),Phase 1/2,2023-06-11 00:00:00,"Phase 1/2 updated safety and efficacy data to be presented at EAACI showed that after a single dose of investigational CRISPR-based therapy, patients living with hereditary angioedema experienced durable elimination of their attacks, noted June 11, 2023.",1
+ATOS,Pre-menopausal women w/ early-stage estrogen receptor positive and Human Epidermal Growth Factor Receptor 2 negative breast cancer,Phase 2,2023-06-12 00:00:00,"Phase 2 enrollment of Pharmacokinetic Run-In cohort completed, noted June 12, 2023.",0
+DERM,"Microbial flora, papulopustular rosacea",Phase 1,2023-06-13 00:00:00,"Phase 1 study achieved all primary objectives and no significant safety issues were noted during the study, noted June 13, 2023.",1
+TSVT,Acute myeloid leukemia (AML),Phase 1,2023-06-14 00:00:00,"Phase 1 paused after recent Grade 5 (fatal) serious adverse event (SAE) and was followed by the required notification to the FDA, noted June 14, 2023.",-1
+LVTX,"Chronic lymphocytic leukemia (CLL), multiple myeloma (MM) and acute myeloid leukemia (AML)",Phase 1/2,2023-06-14 00:00:00,"Phase 1/2a discontinued, noted June 14, 2023.",-1
+AMRX,Metastatic non-squamous non-small cell lung cancer,Approved,2023-06-14 00:00:00,"FDA 505(b)(2) Approval on June 14, 2023.",1
+MRSN,Platinum-sensitive Ovarian Cancer,Phase 1,2023-06-15 00:00:00,"A clinical hold placed due to bleeding events, noted June 15, 2023.",0
+BGNE,B-cell malignancies intolerant to ibrutinib and/or acalabrutinib,Phase 2,2023-06-15 00:00:00,"Phase 2 preliminary study demonstrated that treatment with BRUKINSA was well-tolerated and unlikely to lead to recurrence of intolerant adverse events experienced with prior BTK-inhibitor therapy, suggesting BRUKINSA may be a treatment option for these patients, noted June 15, 2023.",1
+ALLO,Non-Hodgkin lymphoma (NHL),Phase 1,2023-06-15 00:00:00,"Phase 1 data update presented at ICML and ASCO 23 reported that 7 of 12 (58%) patients achieved a CR and five (42%) maintained a CR through Month 6. Of the five patients who were in CR at 6 months, four (80%) remained in CR, noted June 15, 2023.",1
+HEPA,Non-alcoholic steatohepatitis,Phase 2b,2023-06-15 00:00:00,"Phase 2b Data and Safety Monitoring Board (DSMB) review and issued a ""study may proceed without modification"" clearance, study expected to be completed by 1Q 2024, noted June 15, 2023.",0
+KDNY,"Primary Hyperoxaluria, Healthy Volunteers",Phase 1,2023-06-17 00:00:00,"Phase 1 healthy volunteer data at ERA 2023 showed that dosing was generally well tolerated in HVs who received single doses up to 500 mg and multiple doses (14 days) up to 60 mg, noted June 17, 2023",1
+SPRB,Classic Congenital Adrenal Hyperplasia,Phase 2,2023-06-17 00:00:00,"Phase 2 data presented at ENDO highlighted that gonadal axis disruption is common in men with 21OHD and suggests that modulation of adrenal androgen production via CRFR1 antagonism may improve testicular function, noted June 17, 2023.",1
+BMY,Mantle cell lymphoma (MCL),Phase 1,2023-06-17 00:00:00,"Phase 1 data presented at ICML showed that 86.5% of patients in the relapsed or refractory mantle cell lymphoma cohort achieved a response, with 74.3% achieving a complete response, noted June 17, 2023.",1
+ACLX,Multiple Myeloma,Phase 2,2023-06-19 00:00:00,"Phase 2 clinical hold received by the FDA after a recent patient death, noted June 19, 2023.",0
+HALO,Generalized Myasthenia Gravis (gMG),Approved,2023-06-20 00:00:00,"FDA Approved on June 20, 2023.",1
+ARGX,Generalized Myasthenia Gravis (gMG),Approved,2023-06-20 00:00:00,"FDA Approved on June 20, 2023.",1
+CRMD,Hemodialysis patients with central venous catheters,PDUFA,2023-06-21 00:00:00,"PDUFA date after resubmission on November 15, 2023.",0
+PIRS,Asthma,Phase 2a,2023-06-21 00:00:00,"Phase 2a AstraZeneca communicated to Pieris its decision to discontinue and cease dosing in the ongoing clinical studies, the decision was based on lung findings from a non-clinical 13-week GLP toxicology study, which are not a concern for the active clinical studies but do not support long-term use and progression to later-stage development, noted June 21, 2023.",-1
+AZN,Asthma,Phase 2a,2023-06-21 00:00:00,"Phase 2a AstraZeneca communicated to Pieris its decision to discontinue and cease dosing in the ongoing clinical studies, the decision was based on lung findings from a non-clinical 13-week GLP toxicology study, which are not a concern for the active clinical studies but do not support long-term use and progression to later-stage development, noted June 21, 2023.",-1
+LUMO,Pediatric Growth Hormone Deficiency (PGHD),Phase 2,2023-06-21 00:00:00,"Phase 2 new data shared at KOL shows durable response after 12 months, noted June 21, 2023.",1
+SPRC,Tourette Syndrome,Phase 2b,2023-06-21 00:00:00,"Phase 2b IRB approval to initiate study, noted June 21, 2023.",1
+KYMR,"AML, Lymphomas, and Uveal melanoma",Phase 1,2023-06-22 00:00:00,"FDA granted orphan drug designation on June 22, 2023.",0
+ZLDPF,Obesity and type 2 diabetes,Phase 2,2023-06-23 00:00:00,"Phase 2 data presented at ADA showed nearly 19% weight loss in people with overweight or obesity, noted June 23, 2023.",1
+LLY,Type 2 diabetes,Phase 2,2023-06-24 00:00:00,"Phase 2 additional data achieved a mean reduction in A1C up to 2.1% at 26 weeks, noted June 24, 2023.",1
+VIR,Hepatitis B (HBV),Phase 2,2023-06-24 00:00:00,"Phase 2 24 or 48 weeks plus up to 48 weeks of PEG-IFN-⍺ (cohorts 4 and 5 combined), 26% (8/31) achieved HBsAg loss at the end of treatment and 16% (5/31) sustained HBsAg loss 24 weeks after the end of treatment, noted June 24, 2023.",1
+ALNY,Hepatitis B (HBV),Phase 2,2023-06-24 00:00:00,"Phase 2 24 or 48 weeks plus up to 48 weeks of PEG-IFN-⍺ (cohorts 4 and 5 combined), 26% (8/31) achieved HBsAg loss at the end of treatment and 16% (5/31) sustained HBsAg loss 24 weeks after the end of treatment, noted June 24, 2023.",1
+VIR,Hepatitis B,Phase 1,2023-06-24 00:00:00,"Phase 1 data showed that treatment has a shorter terminal half-life and was cleared faster in participants with higher baseline HBsAg, noted June 24, 2023.",1
+FUSN,Solid tumors,Phase 1,2023-06-26 00:00:00,"Phase 1 pre-administration data reported a favorable gain in tumor lesion uptake versus normal tissue, noted June 14, 2022.",1
+TERN,Obesity,Phase 1a,2023-06-26 00:00:00,"Preclinical data demonstrated the ability of TERN-601 to significantly improve glucose tolerance, suppress food intake and slow gastric emptying in transgenic mice, noted June 26, 2023",1
+ALPMY,Severe vasomotor symptoms (VMS) due to menopause,Phase 3,2023-06-28 00:00:00,"Phase 3b data reported that the trial met its primary endpoint, noted June 28, 2023.",0
+CGTX,Mild-to-Moderate Alzheimer's Disease,Phase 2,2023-06-28 00:00:00,"Phase 2 study met its primary endpoints for safety and tolerability and showed positive effects for CT1812-treated participants as measured via quantitative electroencephalogram (qEEG), noted June 28, 2023.",1
+ALVO,Inflammatory diseases,CRL,2023-06-28 00:00:00,"Third CRL issued June 28, 2023. Resubmission planned.",0
+ALDX,Retinitis Pigmentosa,Phase 2,2023-06-29 00:00:00,"Phase 2 top-line results presented on a webcast demonstrated statistically significant improvement in retinal function across a number of different physiological and psychophysical assessments, June 29, 2023.",1
+BTAI,Agitation associated with Alzheimer’s Disease,Phase 3,2023-06-29 00:00:00,"Phase 3 topline data reported that only 60mcg dose met primary endpoint, with a 7.5 point reduction versus 5.4 point reduction in the placebo group, noted June 29, 2023.",1
+CYT,"Hematologic malignancies, solid tumors, triple negative breast cancer",Phase 1,2023-06-30 00:00:00,"Phase 1 development discontinued due to dissolution, noted June 30, 2023.",-1
+ALLR,Metastatic breast cancer (mBC),Phase 2,2023-07-05 00:00:00,"Phase 2 intial data showed potential for improved clinical benefit in DRP-selected metastatic breast cancer patients, noted July 5, 2023.",1
+VXRT,Norovirus vaccine,Phase 2,2023-07-06 00:00:00,"Phase 2 topline data reported a similar increase in serum antibody responses with no statistical difference between the medium and high dose arms, and the candidate was well tolerated, noted July 6, 2023.",1
+SYBX,Phenylketonuria (PKU),Phase 1,2023-07-11 00:00:00,"FDA Granted Fast Track Designation on July 11, 2023.",0
+PULM,Acute migraine,Phase 1,2023-07-11 00:00:00,"IND submitted to FDA to initiate Phase 2 trial, noted July 11, 2023.",0
+ZLAB,Gastric and gastro-esophageal junction cancer,Phase 3,2023-07-14 00:00:00,"Trial in China initiated, noted July 14, 2023.",0
+GILD,Covid-19,Approved,2023-07-14 00:00:00,"Approved July 14, 2023.",1
+AZN,Respiratory syncytial virus,Approved,2023-07-17 00:00:00,"FDA Approved on July 17, 2023.",1
+KPTI,Myelofibrosis - naïve,Phase 2,2023-07-17 00:00:00,"FDA Granted Fast Track Designation on July 17, 2023.",0
+MRK,Cervical cancer,Phase 3,2023-07-19 00:00:00,"Phase 3 data reported that trial met the PFS primary endpoint, noted July 19, 2023.",0
+PFE,Streptococcus Vaccine,Phase 2,2023-07-19 00:00:00,"Phase 2 results showed that the investigational vaccine, GBS6, was generally well-tolerated and generated robust maternal antibody responses that were efficiently transferred to infants, noted July 19, 2023.",1
+NBTX,Non-small cell lung cancer (NSCLC),Phase 1/2,2023-07-19 00:00:00,"Phase 1/2 dosing initiated, noted July 19, 2023.",0
+FIXX,Phenylketonuria (PKU),Phase 1,2023-07-21 00:00:00,"Phase 1 initial data reported that participant 2 has experienced a meaningful plasma Phe reduction of 49% at 17, and participant 1 had a reduction in plasma phenylalanine (Phe) levels to below the ACMG PKU treatment guideline threshold of <360 μmol/L, noted July 27, 2023.",1
+VRCA,Molluscum contagiosum,Approved,2023-07-21 00:00:00,"Approved July 21, 2023.",1
+KOD,Diabetic macular edema (DME),Phase 3,2023-07-24 00:00:00,"Phase 3 trial did not meet the primary endpoint, noted July 24, 2023.",1
+GOSS,Pulmonary arterial hypertension (PAH),Phase 2,2023-07-25 00:00:00,"Phase 2 OLE data reported that 9 of 11 patients continued to improve, with a mean improvement of 9 PVR dual responders of 39%, and 3 patients reached a PVR below 200 dyne*s/cm5n, noted July 25, 2023.",1
+LPCN,Liver cirrhosis,Phase 2,2023-07-27 00:00:00,"Phase 2 trial met its primary endpoint, noted July 27, 2023.",0
+PFE,Spinocerebellar Ataxia (SCA),Phase 3,2023-07-27 00:00:00,"The FDA informed Biohaven that it would not review the recently submitted NDA application for troriluzole given that the study's primary endpoint was not met and thus, would not permit a substantive review. The communication from the FDA indicated that the Company may request a Type A meeting within 30 days, noted July 27, 2023.",1
+ANNX,Geographic atrophy,Phase 2,2023-07-30 00:00:00,"Phase 2 results presented at ASRS demonstrated dose and time-dependent protection of visual function in GA across multiple measures, noted July 30, 2023.",1
+CLSD,Wet AMD using suprachoroidal delivery,Phase 2,2023-07-30 00:00:00,"Phase 2 additional data reported meaningful reductions in Anti-VEGF injection burden with stable to improved CRT through month 6, noted July 30, 2023.",1
+BPTH,Acute myeloid leukemia (AML) and myelodysplastic syndrome (MDS),Phase 2,2023-08-01 00:00:00,"Phase 2 interim analysis reported that in cohort 1, twelve of the fourteen evaluable patients (86%) achieved complete remission (CR/CRi) and two (14%) achieved partial remission (PR), and in cohort 2 eight of the fourteen evaluable patients (57%) achieved complete remission (CR/CRi), two (14%) achieved partial remission (PR) and three (22%) achieved stable disease, noted August 1, 2023.",1
+CLSD,Diabetic retinopathy,Phase 2,2023-08-01 00:00:00,"Phase 2 additional data reported that 20% of patients achieved a >2-step improvement vs. 10% in control and 54% of patients achieved any DRSS improvement vs. 20% in control, noted August 1, 2023.",1
+QLGN,"Pancreatic cancer, Prostate cancer and other solid tumors",Phase 1a,2023-08-01 00:00:00,"IND cleared by FDA, noted August 1, 2023",0
+ALT,Non-alcoholic fatty liver disease (NAFLD),Phase 2b,2023-08-01 00:00:00,"Phase 2b IMPACT trial enrollment initiated, noted August 1, 2023.",0
+ONCT,Metastatic castration-resistant prostate cancer (mCRPC),Phase 1/2,2023-08-03 00:00:00,"Phase 1/2 study received ""Study May Proceed"" letter by FDA, noted August 3, 2023.",0
+BIIB,Major depressive disorder (MDD),CRL,2023-08-04 00:00:00,"CRL issued August 4, 2023.",0
+VIRX,Epstein-Barr Virus Associated Lymphoma,Phase 1/2,2023-08-08 00:00:00,"Phase 1b/2 data results showed complete responses achieved and ongoing durable responses observed out to approximately 36 months across multiple EBV+ lymphoma subtypes, including some of the most aggressive cancers, noted August 8, 2023.",1
+GRTX,Severe Oral Mucositis (SOM),CRL,2023-08-09 00:00:00,"FDA issued a Complete Response Letter (CRL), noted August 9, 2023.",0
+VRCA,Basal cell carcinoma,Phase 2,2023-08-10 00:00:00,"Phase 2 data presented at AAD Innovation Academy show consistency inclinical and histological clearance of treated BCC lesions was observed by Day 49 post-treatment with the 8 mg dose of VP-315, with 4 of 6 subjects (67%) showing complete tumor clearance, noted August 10, 2023.",1
+GLTO,Idiopathic pulmonary fibrosis (IPF),Phase 2b,2023-08-15 00:00:00,"Phase 2b trial did not meet its primary endpoint, noted August 15, 2023.",1
+PCSA,Gastrointestinal Cancer,Phase 1b,2023-08-17 00:00:00,"Phase 1b interim analysis suggested Processa's novel chemotherapy treatment could improve safety and efficacy in more patients by individualizing the dosing regimen for each patient, noted August 17, 2023.",1
+GILD,Acute myeloid leukemia (AML),Phase 3,2023-08-21 00:00:00,"Partial hold by the FDA on enrollment, noted August 21, 2023.",0
+NVO,"Heart failure with preserved ejection fraction (HFpEF) and obesity, Type 2 diabetes",Phase 3,2023-08-25 00:00:00,"Phase 3 data reported a mean change in the KCCQ-CSS of a 16.6-point increase at 52 weeks with semaglutide 2.4 mg vs 8.7 points with placebo, leading to an estimated treatment difference of 7.8 points, noted August 25, 2023.",1
+MRK,Recurrent or metastatic head and neck squamous cell carcinoma (HNSCC),Phase 3,2023-08-25 00:00:00,"Phase 3 data reported that at the second analysis, the trial did not demonstrate an improvement in OS compared to KEYTRUDA plus placebo, noted August 25, 2023.",1
+BBIO,Amyloid cardiomyopathy (ATTR-CM),Phase 3,2023-08-27 00:00:00,"Phase 3 data presented at ESC reported an 81% survival rate on acoramidis and over 30 months, patients survived more and were hospitalized less than has been seen in prior controlled studies, noted August 27, 2023.",1
+ANIP,Severe vasomotor symptoms (hot flashes and night sweats) due to menopause,Approved,2023-08-28 00:00:00,"Approved August 28, 2023.",1
+NVCR,Ovarian cancer,Phase 3,2023-08-28 00:00:00,"Phase 3 trial did not meet its primary endpoint in the final analysis, noted August 28, 2023.",1
+RGNX,"Batten Disease, CLN2",Phase 1,2023-08-30 00:00:00,"Phase 1 initial interim data reported that treatment was well tolerated with no serious adverse events. Key efficacy measures demonstrated sustained levels of TPP1 along with increased intervals between enzyme replacement therapy (ERT) infusions and an 86% reduction in seizure frequency through six month, noted August 30, 2023.",1
+ADCT,Diffuse Large B-Cell Lymphoma (DLBCL),Phase 3,2023-08-31 00:00:00,"Phase 3 updated data from safety lead-in portion of study reported that the overall response rate by central review was 16/20 (80%). A total of 10/20 (50%) and 6/20 (30%) patients attained complete and partial response, respectively, noted August 31, 2023.",1
+AZN,Neuromyelitis Optica Spectrum Disorder (NMOSD),CRL,2023-09-06 00:00:00,"CRL issued on September 6, 2023.",0
+VIR,Hepatitis B,Phase 2,2023-09-06 00:00:00,"Additional Phase 2 data significantly increased HBsAg seroconversion rate is strongly associated with BRII-179 treatment and correlates with the increased rate of HBsAg loss3, noted September 6, 2023.",1
+APLT,Galactosemia,NDA Filing,2023-09-06 00:00:00,"Company pre-NDA meeting with the FDA completed, noted September 6, 2023. NDA submission expected 4Q 2023.",1
+VALN,Lyme disease,Phase 2,2023-09-07 00:00:00,"Phase 2 data showed that participants seroconverted after the booster dose, yielding seroconversion1 rates (SCRs) of 95.3% and 94.6% for all outer surface protein A (OspA) serotypes in all age groups, noted September 7, 2023.",1
+INTS,Advanced Soft Tissue Sarcoma,Phase 2,2023-09-07 00:00:00,"Orphan Drug Designation granted by the FDA noted Septemeber 7, 2023.",0
+AZN,Non-small cell lung cancer (NSCLC),Phase 3,2023-09-09 00:00:00,"Phase 3 data presented at WCLC reported a reduced the risk of disease progression or death by 38% compared to TAGRISSO alone and a combination extended median PFS by 8.8 months, noted September 9, 2023.",1
+CING,ADHD,Phase 3,2023-09-09 00:00:00,"Phase 3 trial full results reported improvements on the PERMP scores with a trend towards statistical significance for PERMP ratings over the 16-hour period, noted September 9, 2023.",1
+BMY,Non-Small Cell Lung Cancer (NSCLC),Phase 3,2023-09-11 00:00:00,"Phase 3 data demonstrated consistent, durable benefits of Opdivo plus Yervoy vs. chemotherapy at six years, regardless of PD-L1 expression, noted September 11, 2023.",1
+GILD,Non-Small Cell Lung Cancer (NSCLC),Phase 2,2023-09-11 00:00:00,"Phase 2 trial data reported that in both cohorts, the ORR was 56%, and DCR was 82%. Median duration of response (DoR) was not reached at the time of data cut-off, and DoR rate at six months was 88% in both cohorts, noted September 11, 2023.",1
+ITCI,Bipolar Depression and Major depressive disorder (MDD),Phase 3,2023-09-11 00:00:00,"Phase 3 data continues to demonstrate statical significance. Lumateperone 42mg also met the key secondary endpoint by demonstrating a statistically significant and clinically meaningful reduction in the Clinician's Global Impression scale or CGI compared to placebo at Week 6 in these three populations, noted September 11, 2023.",1
+TAK,Psoriasis,Phase 2b,2023-09-11 00:00:00,"Additional Phase 2b data reported that the safety and tolerability profile of TAK-279 in the Phase 2b trial was consistent with previous TAK-279 clinical trials, noted September 11, 2023.",1
+ABUS,Healthy volunteers,Phase 1,2023-09-11 00:00:00,"Phase 1 discontinued, noted September 11, 2023.",-1
+PFE,COVID-19 Vaccine (Omicron Booster),Approved,2023-09-11 00:00:00,"FDA booster approved on September 11, 2023.",1
+AZN,Eosinophilic granulomatosis with polyangiitis (EGPA),Phase 3,2023-09-11 00:00:00,"Phase 3 met the primary endpoint, noted September 11, 2023.",0
+ABUS,"Hepatitis B, healthy volunteers",Phase 1,2023-09-11 00:00:00,"Phase 1 dosing commenced, noted September 11, 2023. Phase 1 preliminary data 1H 2024.",0
+AZN,Non-Small Cell Lung Cancer,Phase 3,2023-09-12 00:00:00,"Phase 3 data presented at WCLC reported statistically significant and clinically meaningful improvement in event-free survival and pathologic complete response with this IMFINZI-based regimen versus neoadjuvant chemotherapy alone followed by surgery, noted September 12, 2023.",1
+VTGN,Premenstrual dysphoric disorder (PMDD),Phase 2a,2023-09-12 00:00:00,"Phase 2a exploratory analysis demonstrated statistically and clinically significant improvement versus placebo, noted Septemeber 12, 2023.",1
+NVCT,Non-small cell lung cancer (NSCLC),Phase 1a,2023-09-12 00:00:00,"Phase 1a dose escalation initiated, noted September 12, 2023.",0
+MRNA,Seasonal influenza,Phase 3,2023-09-13 00:00:00,"Phase 3 trial met all co-primary endpoints, noted September 13, 2023.",0
+AMGN,Alopecia areata,Phase 2,2023-09-13 00:00:00,"Phase 2 initiated in collaboration with Q32 Bio on September 13, 2023.",0
+SCLX,Acute lower back pain (LBP),Phase 2,2023-09-14 00:00:00,"Phase 2 data reported that none of the subjects in the active group and 3 (8.1%) subjects in placebo group had AEs of special interest, with a meaningful reduction of pain over the first week, noted September 14, 2023.",1
+KYMR,Cutaneous T-cell lymphoma (CTCL),Phase 1,2023-09-18 00:00:00,"FDA granted Fast Track Designation in ongoing Phase 1 trial, noted September 18, 2023.",0
+TCON,Sarcomas,Phase 3,2023-09-18 00:00:00,"Phase 2 pivotal trial satisfied more than the futility threshold of 3 responses out of 46 based on the results of the second and final mandated independent data monitoring committee (IDMC) efficacy review, and the trial will continue as planned, noted September 18, 2023.",0
+KNTE,Solid Tumors,Phase 1,2023-09-18 00:00:00,https://www.biopharmcatalyst.com/company/KNTE/news/159347,0
+ARQT,Atopic Dermatitis - ages of 2-5 years old,Phase 3,2023-09-19 00:00:00,"Phase 3 top-line data reported that the trial met all its primary and secondary endpoints, noted September 19, 2023.",0
+ALPMY,Geographic atrophy (GA) secondary to age-related macular degeneration (AMD),Phase 3,2023-09-19 00:00:00,"Phase 3 24 month data confirmed that trial met primary endpoint, noted September 19, 2023.",0
+VIR,HIV T cell vaccine,Phase 1,2023-09-20 00:00:00,"Phase 1 dosing initiated, noted September 20, 2023.",0
+RGLS,Autosomal Dominant Polycystic Kidney Disease (ADPKD),Phase 1,2023-09-20 00:00:00,"Phase 1b data showed that it was well tolerated by all 9 subjects receiving active drug with no safety findings. Increases in both PC1 and PC2 biomarkers were observed. Statistically significant increases in mean PC1 levels were observed at Day 85 and Day 86 (n=9) compared to baseline (36%-41%). Numeric increases in PC2 were observed during the treatment period, although not statistically significant, noted September 20, 2023.",1
+SPRY,Allergic reactions (type I) including anaphylaxis,CRL,2023-09-20 00:00:00,"CRL announced September 20, 2023.",0
+LQDA,Interstitial lung disease (PH-ILD),PDUFA,2023-09-25 00:00:00,"FDA confirmed resubmission as Class II, PDUFA date assigned on January 24, 2024. Additionally, the FDA may not grant final approval of the PH-ILD indication until after the new clinical investigation exclusivity granted to Tyvaso expires on March 31, 2024, noted September 25, 2023.",1
+TLSA,Secondary Progressive Multiple Sclerosis (SPMS),Phase 2a,2023-09-26 00:00:00,"Phase 2a trial in na-SPMS initiated, noted September 26, 2023.",0
+SLNO,Prader-Willi syndrome (PWS),Phase 3,2023-09-26 00:00:00,"Phase 3 trial met its primary endpoint, noted September 26, 2023.",0
+IONS,Familial Chylomicronemia Syndrome (FCS),Phase 3,2023-09-26 00:00:00,"Phase 3 trial met its primary efficacy endpoint, noted September 26, 2023.",0
+TAK,Ulcerative Colitis,Approved,2023-09-27 00:00:00,"FDA Approved on September 27, 2023.",1
+BLRX,First-line pancreatic ductal adenocarcinoma (PDAC),Phase 2,2023-09-28 00:00:00,"Phase 2 trial data presented at the AACR Special pancreatic cancer conference reported that 6 patients (55%) experienced a partial response (PR) of which 4 (36%) were confirmed PRs with one patient experiencing resolution of the hepatic (liver) metastatic lesion, noted September 28, 2023.",1
+IMGN,Cancer - ovarian cancer and relapsed endometrial cancer,Phase 3,2023-09-28 00:00:00,"Additional Phase 3 data reported at ESGO noted that in patients with prior PARPi, ORR in the ELAHERE arm was 45%, including 7 CRs, compared to 17%, with no CRs, in the IC chemotherapy arm, noted September 28, 2023.",0
+GPCR,Type 2 Diabetes,Phase 1b,2023-09-29 00:00:00,"Phase 1b results reported that GSBR-1290 demonstrated significant weight loss supporting once-daily (QD) dosing, noted September 29, 2023.",1
+MBRX,Acute Myeloid Leukia (AML),Phase 1b,2023-10-02 00:00:00,"Phase 1b portion of Phase 1B/2 study demonstrated preliminary CR/CRi rate of 33%, noted Octobeer 2, 2023.",1
+LGND,ER+/HER2- breast cancer,Phase 3,2023-10-02 00:00:00,"Phase 3 result presented at NAMS 2023 showed that younger age, non-visceral disease, prior tamoxifen and a longer total duration of AI use may be associated with higher baseline vaginal and/or vulvar symptomatology, noted October. 2, 2023.",1
+ZVRA,Idiopathic hypersomnia (IH),Phase 2,2023-10-02 00:00:00,"Phase 2 interim data reported that marked improvements in patient-reported assessments of key IH symptoms from the open-label titration phase, including excessive daytime sleepiness, sleep inertia, and brain fog, noted October 2, 2023.",1
+PDSB,Cervical cancer,Phase 2a,2023-10-02 00:00:00,"Additional Phase 2a data to be reported at the American Society for Radiation Oncology (ASTRO 2023) demonstrated that patients treated with PDS0101 had greater clearance of cfDNA as compared to those treated with SOC, noted October 2, 2023.",1
+GALT,Non-alcoholic steatohepatitis (NASH) with cirrhosis,Phase 2/3,2023-10-03 00:00:00,"4th DSMB concluded that NAVIGATE can continue as designed, without modifications, noted October 3, 2023.",0
+ACRS,Atopic dermatitis,Phase 2b,2023-10-03 00:00:00,"Phase 2b trial enrollment completed, noted October 3, 2023",0
+IMMX,Multiple myeloma,Phase 1/2,2023-10-03 00:00:00,"Phase 1b/2a updated data reported a 100% (9/9) overall response rate and 67% (6/9) complete response rate (MRD 10-5) observed in heavily pre-treated patients, noted October 3, 2023.",1
+VRTX,Type 1 Diabetes,Phase 1/2,2023-10-03 00:00:00,"Phase 1/2 long term data reported that two patients with at least 1 year of follow-up met the criteria for the primary endpoint of elimination of severe hypoglycemic events (SHEs) and HbA1c <7.0%, noted October 3, 2023.",0
+NBTX,Head and Neck Cancer,Phase 1,2023-10-04 00:00:00,"Phase 1 final data presented at ASTRO reported an overall response rate (ORR) of 81.8% (36/44) with a complete response rate (CRR) of 63.6% (28/44), noted October 4, 2023.",1
+IKT,Multiple System Atrophy (MSA),Phase 2,2023-10-04 00:00:00,"Orphan Drug Designation granted by FDA on October 4, 2023.",0
+PRTC,Ulcerative colitis (UC),Phase 2,2023-10-04 00:00:00,"Phase 2 dosing was initiated and FDA granted fast track designation (FTD), noted October 4, 2023.",0
+AKRO,Nonalcoholic Steatohepatitis,Phase 2b,2023-10-04 00:00:00,"Phase 2b results published at the Lancet Gastroenterology & Hepatology showed that both EFX doses achieved statistical significance on primary and secondary histopathology endpoints after 24 weeks, noted October 4, 2023.",1
+LGVN,Alzheimer's Disease,Phase 2a,2023-10-05 00:00:00,"Phase 2a topline data reported that trial met primary endpoints of safety across all study groups, noted October 5, 2023.",0
+PPBT,2L metastatic pancreatic cancer (PDAC),Phase 1/2,2023-10-06 00:00:00,"Phase 1 biomarker data demonstrated that CM24 treatment significantly reduced the level of NET marker in patients' serum, noted October 6, 2023.",1
+OCS,Diabetic macular edema (DME),Phase 3,2023-10-06 00:00:00,"Phase 3 data presented at EURETINA noted that 6 times a day dosing of OCS-01 was a highly effective Loading Dose, noted October 6, 2023.",1
+RNA,Myotonic dystrophy type 1 (DM1),Phase 1/2,2023-10-09 00:00:00,"Phase 1/2 enrollment into open label extension trial commenced August 2, 2022. Phase 1/2 new data demonstrated improvement in additional functional measures augmenting previously reported positive data that demonstrated improvements in functional assessments of myotonia (video hand opening time, or vHOT), strength (Quantitative Muscle Testing total score, or QMT) and mobility (10-meter walk run test, or 10mWRT and the Timed Up and Go test, or TUG)., noted October 9, 2023.",1
+BTAI,Solid Tumors,Phase 2,2023-10-10 00:00:00,"Phase 2 trial showed a median OS of 13.6 months and a 12-month survival rate of 56.5%., noted October 10, 2023.",1
+BFRI,Actinic keratosis (AK),Approved,2023-10-10 00:00:00,"Approved October 10, 2023.",1
+INO,HPV 6 and HPV 11-associated Recurrent respiratory papillomatosis,Phase 1/2,2023-10-10 00:00:00,"Phase 1/2 received feedback from the FDA that data could support INOVIO's submission of a BLA for review under the FDA's accelerated approval program. The FDA also advised that the company's previously planned Phase 3 trial would not be required to support this submission, noted October 10, 2023.",1
+INCY,Vitiligo,Phase 2,2023-10-11 00:00:00,"Phase 2 trial initiated March 2021. Phase 2b study results shared at EADV reported that the total body depigmentation improvement from baseline as measured by the Total Vitiligo Area Scoring Index (T-VASI) at Week 52 for povorcitinib 15-to-75 mg, 45 mg, 75 mg and placebo-to-75 mg were 40.7%, 42.7%, 41.3% and 18.1%, respectively, noted October 11, 2023.",1
+GRTS,COVID-19 vaccine,Phase 1,2023-10-11 00:00:00,"Phase 1 data reported that all doses were well tolerated in both HIV-negative participants and PLWH irrespective of SARS-CoV-2 serostatus at baseline, noted October 11, 2023.",1
+TPST,Hepatocellular carcinoma (HCC),Phase 1/2,2023-10-11 00:00:00,"Phase 1b/2 trial had a confirmed objective response rate of 30% for the TPST-1120 triplet arm versus 13.3% for the atezolizumab + bevacizumab control arm; duration of response (""DoR"") has not yet been reached, noted October 11, 2023.",1
+CYT,"Solid tumors, Ovarian cancer",Phase 1,2023-10-12 00:00:00,"Additional Phase 1 data reported that two patients had a confirmed partial response, one additional patient achieved an unconfirmed partial response, seven patients had stable disease and one patient had progressive disease, noted October 12, 2023.",1
+TRVI,Prurigo Nodularis (PN),Phase 2/3,2023-10-13 00:00:00,"Phase 2/3 long-term data also supports the continued effectiveness of Haduvio in reducing itch over 52 weeks for the participants who remained in the study, noted October 13, 2023.",1
+NCNA,Colorectal Cancer,Phase 1/2,2023-10-13 00:00:00,"Phase 1b/2 achieved a longer progression-free survival as compared to their first-line treatment with 5-FU-based Therapy, noted October 13, 2023.",1
+ACRV,"Platinum-resistant ovarian,(PROC) endometrial, and urothelial cancers.",Phase 2,2023-10-13 00:00:00,"Phase 2 preliminary data shared at AACR-NCI-EORTC reported that ACR-368 that enables identification of responders to ACR-368 treatment, noted October 13, 2023",1
+NVCT,Ovarian Clear Cell Carcinoma,Phase 1,2023-10-13 00:00:00,"Phase 1 data presented at AACR-NCI-EORTC reported that NXP800 induced phosphorylation of eIF2a via activation of the stress activated kinase GCN2, noted October 13, 2023.",1
+MREO,Osteogenesis Imperfecta,Phase 2,2023-10-14 00:00:00,"Additional Phase 2 data reported that the annualized fracture rate across all 24 patients in the Phase 2 portion of the study was reduced by 67%, noted October 14, 2023.",1
+TRVN,Epilepsy and other CNS disorders,Phase 1,2023-10-16 00:00:00,"Full safety and tolerability data showed that TRV045 was well tolerated with results generally consistent with prior first-in-human study, noted October 16, 2023.",1
+VSTM,KRAS mutant non-small cell lung cancer (NSCLC),Phase 1/2,2023-10-16 00:00:00,"Phase 1/2 initial data reported that the confirmed objective response rate (ORR) was 25% (3/12) across efficacy-evaluable patients and seen in both KRAS G12C inhibitor resistant (14.3%; 1/7) and naïve (40%; 2/5) patients, noted October 16, 2023.",1
+MOR,Crohn's disease,Phase 3,2023-10-16 00:00:00,"Phase 3 data reported that in the combination 54% of patients reached a clinical remission, noted October 16, 2023.",1
+RARE,Osteogenesis Imperfecta,Phase 2b,2023-10-16 00:00:00,"Phase 2b data demonstrated that treatment with setrusumab (UX143) significantly reduced the incidence of fractures in patients with osteogenesis imperfecta (Gr) with at least six months of follow-up and continues to demonstrate ongoing and meaningful improvements in lumbar spine bone mineral density (BMD), noted October 16, 2023.",1
+EVLO,"Psoriasis, healthy volunteers",Phase 2,2023-10-17 00:00:00,"Phase 2 study did not achieve its primary endpoint, noted October 17, 2023.",1
+GMDA,Follicular and diffuse large B cell lymphomas,Phase 1,2023-10-17 00:00:00,"Phase 1 data showed promising early evidence of anti-tumor activity in patients with relapsed/refractory B cell non-Hodgkin lymphoma, noted October 16, 2023.",1
+BMY,Urothelial carcinoma,Phase 3,2023-10-17 00:00:00,"Phase 3 data presented at ESMO reported that Opdivo in combination with cisplatin-based chemotherapy reduced the risk of death by 22%, demonstrating a median OS of 21.7 months vs. 18.9 months with chemotherapy alone, noted October 17, 2023.",1
+VKTX,Obesity,Phase 1,2023-10-18 00:00:00,"Phase 1 data demonsted that 28 days of once-weekly treatment with VK2735 resulted in reductions in subjects' liver fat content and plasma lipid levels, both from baseline and as compared to placebo, noted October 18, 2023.",1
+PFE,"Meningococcal Vaccine, Adolescents",Approved,2023-10-20 00:00:00,"FDA approved on October 20, 2023.",1
+RVMD,Advanced Solid Tumors,Phase 1b,2023-10-22 00:00:00,"Phase 1/1b data shared at ESMO reported that the objective response rate was 38 percent, with one patient achieving a complete response (CR) as a best response and 14 patients achieving a partial response, noted October 22, 2023.",1
+AZN,Untreated advanced or metastatic triple negative breast cancer (TNBC),Phase 1/2,2023-10-23 00:00:00,"Phase 1b/2 data reported a confirmed objective response rate (ORR) of 79% (95% confidence interval [CI]: 67-88) including six complete responses (CRs) and 43 partial responses (PRs), noted October 23, 2023.",0
+ARVN,Metastatic castration-resistant prostate cancer (mCRPC),Phase 1/2,2023-10-23 00:00:00,"Phase 1/2 data presented at ESMO reported a PSA50 of 41% in patients with tumors harboring any AR LBD mutation, and a PSA50 of 50% in patients with any tumor harboring an AR L702H mutation, noted October 23, 2023.",1
+NVS,Metastatic castration-resistant prostate cancer (mCRPC),Phase 3,2023-10-23 00:00:00,"Phase 3 trial met its primary endpoint with a clinically meaningful and statistically significant benefit in radiographic progression-free survival, noted October 23, 2023.",0
+PDSB,Head and neck cancer,Phase 2,2023-10-23 00:00:00,"Phase 2 data presented at ESMO reported that the combination of PDS0101 and KEYTRUDA resulted in increased polyfunctionality reflected in T cells expressing 5 or more cytokines, noted October 23, 2023.",1
+AXSM,Agitation in patients with Alzheimer’s disease (AD),Phase 3,2023-10-24 00:00:00,"Phase 3 results shared at the CTAD demonstrated rapid and sustained clinical response in patients with ADA during the open-label AXS-05 treatment. During the placebo-controlled randomized withdrawal phase, AXS-05 statistically significantly delayed the time to relapse of agitation symptoms as compared to placebo, noted October 24, 2023.",1
+RNAZ,Metastatic solid tumors,Phase 1a,2023-10-24 00:00:00,"Phase 0 preliminary data showed that radioactivity consistent with accumulation of TTX-MC138 was detected by noninvasive imaging in the regions of the metastatic lesions previously identified by fluorodeoxyglucose (FDG)/positron emission tomography (PET) (FDG/PET), noted October 24, 2023.",1
+JNJ,GFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer,Phase 3,2023-10-24 00:00:00,"Phase 3 data presented at ESMO reported ami+laz showed a 30% reduction in the risk for disease progression or death vs osi, with median PFS of 23.7 mo, and an ORR of 86%, noted October 24, 2023.",1
+BBIO,Gastric Cancer / Gastroesophageal junction adenocarcinoma,Phase 2a,2023-10-25 00:00:00,"Phase 2a data presented at ESMO showed that infigratinib was generally well tolerated with a manageable safety profile, noted October 25, 2023.",1
+LIAN,Gastric Cancer / Gastroesophageal junction adenocarcinoma,Phase 2a,2023-10-25 00:00:00,"Phase 2a data presented at ESMO showed that infigratinib was generally well tolerated with a manageable safety profile, noted October 25, 2023.",1
+BIIB,Alzheimer’s disease,Phase 3,2023-10-25 00:00:00,"Phase 3 presentation at CTAD reported a 14% greater amyloid plaque removal than biweekly IV administration as suggested in a preliminary analysis using amyloid PET at 6 months of treatment, noted October 25, 2023.",1
+BIVI,Alzheimer’s disease,Phase 3,2023-10-25 00:00:00,"Phase 3 presented at CTAD showed statistically significant population changes from baseline were observed for all primary and secondary cognitive and functional assessments measured: ADAS-Cog12, ADCS-CGIC, MMSE, CDR, CDR-SB, ADCOMS, and ADL, noted October 25, 2023.",1
+ABOS,Alzheimer’s disease (AD),Phase 1,2023-10-27 00:00:00,"Additional Phase 1 results shared at CTAD reported that statistically significant amyloid plaque reduction that was comparable to approved and in-review therapies at similar time points, was observed in higher dose cohorts, noted October 27, 2023",1
+DCPH,Tenosynovial Giant Cell tumor,Phase 3,2023-10-30 00:00:00,"Phase 3 study met primary endpoint with objective response rate (ORR) at week 25 of 40% compared to 0% for placebo. The study also met all key secondary endpoints at Week 25 compared to placebo, noted October 30, 2023.",0
+CVM,Head and Neck cancer,Phase 3,2023-10-30 00:00:00,"Phase 3 data finalized target population data resulted in risk of death cut in half at five years versus the control, 28.6% absolute 5-year overall survival benefit versus control, 0.349 hazard ratio vs control , noted October 30, 2023.",0
+RHHBY,Duchenne muscular dystrophy,Phase 3,2023-10-30 00:00:00,"Phase 3 trial results showed that participants treated with ELEVIDYS (delandistrogene moxeparvovec-rokl) showed an increase on the North Star Ambulatory Assessment, a measure of motor function, compared to placebo-treated patients at 52 weeks, although the primary endpoint was not met, noted October 30, 2023.",1
+ANVS,Alzheimer’s disease (AD),Phase 2/3,2023-10-30 00:00:00,"Phase 2/3 trial DSMB feedback resulted in no drug-related SAEs, each AE < 5% and a very low dropout rate of 4.7%, noted October 30, 2023.",0
+GRTX,Pancreatic Cancer,Phase 2b,2023-10-31 00:00:00,"Phase 2b did not pass futility analysis, so trial halted to preserve cash, noted October 31, 2023.",1
+AMGN,Moderate to severe genital psoriasis,Phase 3,2023-10-31 00:00:00,"Phase 3 data presented that treated patients across subgroups experienced greater improvement in genital psoriasis and genital itch at week 16 compared to placebo, noted October 31, 2023.",1
+NVS,Hidradenitis Suppurativa (HS),Approved,2023-10-31 00:00:00,"Approved October 31, 2023.",1
+RANI,Neuroendocrine tumors (NETs) and acromegaly,Phase 1,2023-11-01 00:00:00,"Program discontinued, noted November 1, 2023.",-1
+IRON,Myelofibrosis (MF) patients with anemia,Phase 1/2,2023-11-02 00:00:00,"Phase 1b/2 data from abstracts reported dose-dependent reductions in serum hepcidin-25 and increases in serum iron levels, noted November 2, 2023.",1
+IPSC,Lymphoma or Indolent Lymphoma,Phase 1,2023-11-02 00:00:00,"Phase 1 data from ASH abstract reported that one patient achieved a complete response that is ongoing as of five months following their first CNTY-101 infusion, noted November 2, 2023.",1
+INAB,Allogeneic hematopoietic stem cell transplantation (HSCT),Phase 1,2023-11-02 00:00:00,"Phase 1 data from ASH abstract reported that treatment emergent AE's included transient WBC and ANC decreased (100% each), platelet count decreased and anemia (88.9% each) and maculopapular rash, hypomagnesemia and blood creatine increased (55.6% each), noted November 2, 2023.",1
+NRIX,B-cell malignancies / graft-versus-host disease,Phase 1a,2023-11-02 00:00:00,"Phase 1a data from ASH abstract reported that of three evaluable patients with CLL receiving the lowest dose of 50 mg, early signs of clinical activity were observed including one confirmed partial response and 2 patients with stable disease, noted November 2, 2023.",1
+NRIX,"B-cell malignancies, chronic lymphocytic leukemia (CLL)",Phase 1b,2023-11-02 00:00:00,"Phase 1b data from ASH abstract reported that 9 PRs/PR with rebound lymphocytosis; additionally, 11 patients had SD at the time of data cut-off and 4 had PD, noted November 2, 2023.",0
+FHTX,Synovial sarcoma,Phase 1,2023-11-02 00:00:00,"Phase 1 preliminary results shared at the Connective Tissue Oncology Society Annual Meeting reported that FHD-609 treatment led to dose-dependent BRD9 degradation in tumor tissue, noted November 2, 2023.",1
+AZN,Chronic Kidney Disease (CKD),Phase 2b,2023-11-03 00:00:00,"Phase 2b showed statistically significant and clinically meaningful reductions in urinary albumin-to-creatinine ratio (UACR), noted November 3, 2023.",1
+IPHA,Mycosis Fungoides,Phase 2,2023-11-03 00:00:00,"Phase 2 data from ASH abstract reported that the global confirmed ORR was 37.5% including 2 CRs, with a median time to response of 2.8 months, noted November 3, 2023.",0
+HOWL,Solid Tumors,Phase 1b,2023-11-03 00:00:00,"Phase 1/1b preliminary data provided compelling early evidence of dose-dependent biomarker and antitumor activity in patients, including two patients with ongoing unconfirmed partial responses (uPR) in the highest dose tested to date, cohort 4 (12 mg), noted November 3, 2023.",0
+FLGT,Various cancers,Phase 1/2,2023-11-03 00:00:00,"Phase 1/2 data reported that FID-007 may have anti-tumor activity in heavily pre-treated patients across various tumor types, and a subgroup analysis based on 7 patients for Head and Neck cancer and 4 patients for Ampullary/Pancreatic cancer showed 57% and 50% objective response rate, respectively, noted November 3, 2023.",1
+ELTX,Solid Tumors,Phase 1/2,2023-11-03 00:00:00,"Phase 1/2 data presented at SITC reported that 87% (20/23) had direct ex vivo mKRAS-specific T cell responses, and 100% (23/23) had in vitro stimulated responses, noted November 3, 2023.",1
+SNSE,Various cancers,Phase 1,2023-11-04 00:00:00,"Phase 1 safety data reported that a total of 11 adverse events (including one serious adverse event not considered related to SNS-101) was reported in five patients, with no dose-limiting toxicities observed, noted November 4, 2023.",1
