@@ -1,5 +1,6 @@
 import pandas as pd
 import re, random
+from transformers import AutoTokenizer
 
 def cleanCat(raw: pd.DataFrame):
     """
@@ -84,3 +85,12 @@ def trainIdx(train_size: float, length: int, low: int = 0):
     size = int(train_size * length)
     idxs = random.sample(population=rng, k=size)
     return idxs
+
+def tokenize(tokenizer: AutoTokenizer, doc):
+    """
+    This function tokenizes a string
+    :param tokenizer: AutoTokenizer - tokenizer model
+    :param doc: - dataset
+    :return: tokenized set
+    """
+    return tokenizer(doc['catalyst'], padding=True)
