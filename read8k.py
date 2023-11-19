@@ -62,35 +62,40 @@ def clean8k(doc: str):
 
     return text
 
-def read8k(recs: list):
-    pass
+def read8k(recs: list, dir: str):
+    # store_path = os.path.join(FILEDIR, dir)
+    for record in recs:
+        fname = f'{record[0]}_8K.txt'
+        fpath = os.path.join(OUTDIR, fname)
+        furl = os.path.join(SECDIR, recs[1][-1])
+        response = requests.get(furl, stream=True, headers= {'User-Agent': 'Mozilla/5.0'})
+        with open(fpath, 'wb') as out:
+            out.write(response.content)
+        out.close()
+        time.sleep(0.1)
 
 def scrape8k(year: int, qtr: str):
     print(f'--- Scraping 8K for {year}-{qtr} ---')
-    print(f'Companies Avaliable: {len(names)}')
-
+    print(f'Companies Avaliable: {len(NAMES)}')
+    DIR8K = f'{year}/{qtr}'
     url = f'https://www.sec.gov/Archives/edgar/full-index/{year}/{qtr}/master.idx'
     lines = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, stream=True).content.decode("utf-8", "ignore").splitlines()
     records = list()
     for line in lines:
         if ('8K' in line) and not ('8K/A' in line):
             rec = [item.strip() for item in line.split('|')]
-            if rec[1] in names:
-                it = names.index(rec[1])
-                records.append((it, rec))
+            if rec[1] in NAMES:
+                tick = TICKERS[NAMES.index(rec[1])]
+                records.append((tick, rec))
     print(f'--- Found {len(records)} 8K records for {year}-{qtr} ---')
-    print(f'Missing {len(names) - len(records)} filings.')
-    return records
+    print(f'Missing {len(NAMES) - len(records)} filings.')
+    # if DIR8K not in os.listdir(path=FILEDIR):
+    #     os.mkdir(f'{FILEDIR}/{DIR8K}')
 
+    print(f'--- Downloading 8K for {year}-{qtr} ---')
+    read8k(recs=records, dir=DIR8K)
 
-
-
-if __name__ == '__main__':
-    gc.enable()
-    OUTDIR = 'out/8Ks'
-    SECDIR = 'https://www.sec.gov/Archives'
-    if OUTDIR not in os.listdir(os.getcwd()):
-        os.mkdir(path=OUTDIR)
+def main():
     years = [(2009 + i) for i in range(15)]
     quarters = ['QTR1', 'QTR2', 'QTR3', 'QTR4']
     # create list of tuples for year-quarter pairs
@@ -100,6 +105,20 @@ if __name__ == '__main__':
             yr_qtr.append((y, q))
     yr_qtr = sorted(yr_qtr, key= lambda x: (x[0], x[1]))
     gc.collect()
+    for yr, q in yr_qtr:
+        scrape8k(year=yr, qtr=q)
+        time.sleep(0.1)
+    print('--- Done. ---')
+    return
+
+if __name__ == '__main__':
+    gc.enable()
+    OUTDIR = 'out/8Ks'
+    SECDIR = 'https://www.sec.gov/Archives'
+    if OUTDIR not in os.listdir(os.getcwd()):
+        os.mkdir(path=OUTDIR)
+    FILEDIR = os.path.join(os.getcwd(), OUTDIR)
     firms = pd.read_csv('./out/full_names.csv').dropna(axis=0)
-    names = firms.full.tolist()
-    tickers = firms.ticker.tolist()
+    NAMES = firms.full.tolist()
+    TICKERS = firms.ticker.tolist()
+    main()
