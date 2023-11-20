@@ -1,11 +1,9 @@
 import pandas as pd
-import os, sys, re
-import numpy as np
+import os, re, sqlite3
 import requests, gc, time
 from bs4 import BeautifulSoup as bs
 
-
-def clean8k(doc: str):
+def parse8k(doc: str):
     """
     This function uses regular expressions (regex) to clean raw text SEC files
     :param doc: str -- string of raw text
@@ -87,6 +85,21 @@ def scrape8k(year: int, qtr: str):
     print(f'Could not find records for {len(CIKS) - cikunique} companies.')
     return matches
 
+def clean8k():
+    corpus = list()
+    for filename in os.listdir(FILEDIR):
+        curpath = os.path.join(FILEDIR, filename)
+        name = filename.split('_')
+        with open(curpath, 'r', encoding='UTF-8', errors='ignore') as f:
+            text = f.read()
+        f.close()
+        try:
+            fclean = parse8k(doc=text)
+            corpus.append([name[0], name[1], name[2], fclean])
+        except Exception:
+            continue
+    return corpus
+
 def main():
     years = [(2009 + i) for i in range(15)]
     quarters = ['QTR1', 'QTR2', 'QTR3', 'QTR4']
@@ -102,26 +115,19 @@ def main():
         print(f'--- Downloading 8K for {yr}-{q} ---')
         download8k(records=recs, year=yr, qtr=q) # download 8Ks and store them
         time.sleep(0.1)
-        break
     
-    corpus = list()
-    for filename in os.listdir(FILEDIR):
-        curpath = os.path.join(FILEDIR, filename)
-        name = filename.split('_')
-        with open(curpath, 'r', encoding='UTF-8', errors='ignore') as f:
-            text = f.read()
-        f.close()
-        fclean = clean8k(doc=text)
-        corpus.append([name[0], name[1], name[2], fclean])
-    corpus = pd.DataFrame(corpus, columns=['ticker', 'year', 'quarter', 'filing'])
+    print('--- Cleaning 8K Data ---')
+    clean = clean8k()
+    corpus = pd.DataFrame(clean, columns=['ticker', 'year', 'quarter', 'filing'])
     gc.collect()
-    print(corpus.head(3))
+    corpus.to_sql('8K', engine)
 
     print('--- Done. ---')
     return
 
 if __name__ == '__main__':
     gc.enable()
+    engine = sqlite3.connect('./out/sec-8ks.db')
     OUTDIR = 'out/8Ks'
     SECDIR = 'https://www.sec.gov/Archives'
     FILEDIR = os.path.join(os.getcwd(), OUTDIR)
