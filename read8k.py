@@ -62,12 +62,12 @@ def clean8k(doc: str):
 
     return text
 
-def read8k(recs: list, dir: str):
-    # store_path = os.path.join(FILEDIR, dir)
-    for record in recs:
-        fname = f'{record[0]}_8K.txt'
-        fpath = os.path.join(OUTDIR, fname)
-        furl = os.path.join(SECDIR, recs[1][-1])
+def download8k(records: pd.DataFrame, year: int, qtr: str):
+    for i in range(len(records)):
+        tick = TICKERS[CIKS.index(records.iloc[i].cik)]
+        fname = f'{tick}_{year}_{qtr}_8K.txt'
+        fpath = os.path.join(FILEDIR, fname)
+        furl = os.path.join(SECDIR, records.iloc[i].url)
         response = requests.get(furl, stream=True, headers= {'User-Agent': 'Mozilla/5.0'})
         with open(fpath, 'wb') as out:
             out.write(response.content)
@@ -76,24 +76,16 @@ def read8k(recs: list, dir: str):
 
 def scrape8k(year: int, qtr: str):
     print(f'--- Scraping 8K for {year}-{qtr} ---')
-    print(f'Companies Avaliable: {len(NAMES)}')
+    print(f'Companies Avaliable: {len(TICKERS)}')
     DIR8K = f'{year}/{qtr}'
     url = f'https://www.sec.gov/Archives/edgar/full-index/{year}/{qtr}/master.idx'
     lines = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, stream=True).content.decode("utf-8", "ignore").splitlines()
-    records = list()
-    for line in lines:
-        if ('8K' in line) and not ('8K/A' in line):
-            rec = [item.strip() for item in line.split('|')]
-            if rec[1] in NAMES:
-                tick = TICKERS[NAMES.index(rec[1])]
-                records.append((tick, rec))
-    print(f'--- Found {len(records)} 8K records for {year}-{qtr} ---')
-    print(f'Missing {len(NAMES) - len(records)} filings.')
-    # if DIR8K not in os.listdir(path=FILEDIR):
-    #     os.mkdir(f'{FILEDIR}/{DIR8K}')
-
-    print(f'--- Downloading 8K for {year}-{qtr} ---')
-    read8k(recs=records, dir=DIR8K)
+    records = pd.DataFrame([item.split('|') for item in lines], columns=['cik', 'name', 'filing', 'date', 'url']).iloc[11:]
+    matches = records.loc[(records.cik.isin(CIKS)) & (records.filing == '8-K')].copy()
+    print(f'--- Found {len(matches)} 8K records for {year}-{qtr} ---')
+    cikunique = len(matches.cik.unique())
+    print(f'Could not find records for {len(CIKS) - cikunique} companies.')
+    return matches
 
 def main():
     years = [(2009 + i) for i in range(15)]
@@ -106,8 +98,25 @@ def main():
     yr_qtr = sorted(yr_qtr, key= lambda x: (x[0], x[1]))
     gc.collect()
     for yr, q in yr_qtr:
-        scrape8k(year=yr, qtr=q)
+        recs = scrape8k(year=yr, qtr=q) # scrape records and file urls
+        print(f'--- Downloading 8K for {yr}-{q} ---')
+        download8k(records=recs, year=yr, qtr=q) # download 8Ks and store them
         time.sleep(0.1)
+        break
+    
+    corpus = list()
+    for filename in os.listdir(FILEDIR):
+        curpath = os.path.join(FILEDIR, filename)
+        name = filename.split('_')
+        with open(curpath, 'r', encoding='UTF-8', errors='ignore') as f:
+            text = f.read()
+        f.close()
+        fclean = clean8k(doc=text)
+        corpus.append([name[0], name[1], name[2], fclean])
+    corpus = pd.DataFrame(corpus, columns=['ticker', 'year', 'quarter', 'filing'])
+    gc.collect()
+    print(corpus.head(3))
+
     print('--- Done. ---')
     return
 
@@ -115,10 +124,10 @@ if __name__ == '__main__':
     gc.enable()
     OUTDIR = 'out/8Ks'
     SECDIR = 'https://www.sec.gov/Archives'
+    FILEDIR = os.path.join(os.getcwd(), OUTDIR)
     if OUTDIR not in os.listdir(os.getcwd()):
         os.mkdir(path=OUTDIR)
-    FILEDIR = os.path.join(os.getcwd(), OUTDIR)
-    firms = pd.read_csv('./out/full_names.csv').dropna(axis=0)
-    NAMES = firms.full.tolist()
+    firms = pd.read_csv('./out/ciks.csv')
     TICKERS = firms.ticker.tolist()
+    CIKS = firms.cik.astype(str).tolist()
     main()
