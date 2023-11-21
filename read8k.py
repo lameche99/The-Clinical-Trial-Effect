@@ -1,7 +1,14 @@
 import pandas as pd
-import os, re, sqlite3
+import os, re
 import requests, gc, time
 from bs4 import BeautifulSoup as bs
+
+OUTDIR = 'out/8Ks'
+SECDIR = 'https://www.sec.gov/Archives'
+FILEDIR = os.path.join(os.getcwd(), OUTDIR)
+firms = pd.read_csv('./out/ciks.csv')
+TICKERS = firms.ticker.tolist()
+CIKS = firms.cik.astype(str).tolist()
 
 def parse8k(doc: str):
     """
@@ -61,12 +68,16 @@ def parse8k(doc: str):
     return text
 
 def download8k(records: pd.DataFrame, year: int, qtr: str):
+    session = requests.Session()
     for i in range(len(records)):
         tick = TICKERS[CIKS.index(records.iloc[i].cik)]
         fname = f'{tick}_{year}_{qtr}_8K.txt'
         fpath = os.path.join(FILEDIR, fname)
         furl = os.path.join(SECDIR, records.iloc[i].url)
-        response = requests.get(furl, stream=True, headers= {'User-Agent': 'Mozilla/5.0'})
+        try:
+            response = session.request('GET', furl, stream=True, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+        except Exception:
+            continue
         with open(fpath, 'wb') as out:
             out.write(response.content)
         out.close()
@@ -75,9 +86,8 @@ def download8k(records: pd.DataFrame, year: int, qtr: str):
 def scrape8k(year: int, qtr: str):
     print(f'--- Scraping 8K for {year}-{qtr} ---')
     print(f'Companies Avaliable: {len(TICKERS)}')
-    DIR8K = f'{year}/{qtr}'
     url = f'https://www.sec.gov/Archives/edgar/full-index/{year}/{qtr}/master.idx'
-    lines = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, stream=True).content.decode("utf-8", "ignore").splitlines()
+    lines = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, stream=True, timeout=10).content.decode("utf-8", "ignore").splitlines()
     records = pd.DataFrame([item.split('|') for item in lines], columns=['cik', 'name', 'filing', 'date', 'url']).iloc[11:]
     matches = records.loc[(records.cik.isin(CIKS)) & (records.filing == '8-K')].copy()
     print(f'--- Found {len(matches)} 8K records for {year}-{qtr} ---')
@@ -111,29 +121,24 @@ def main():
     yr_qtr = sorted(yr_qtr, key= lambda x: (x[0], x[1]))
     gc.collect()
     for yr, q in yr_qtr:
+        if (yr == 2023) and (q == 'QTR4'):
+            break
         recs = scrape8k(year=yr, qtr=q) # scrape records and file urls
         print(f'--- Downloading 8K for {yr}-{q} ---')
         download8k(records=recs, year=yr, qtr=q) # download 8Ks and store them
+        print('Done.')
         time.sleep(0.1)
     
     print('--- Cleaning 8K Data ---')
     clean = clean8k()
     corpus = pd.DataFrame(clean, columns=['ticker', 'year', 'quarter', 'filing'])
     gc.collect()
-    corpus.to_sql('8K', engine)
+    corpus.to_csv('./out/sec.csv', encoding='utf-8', errors='ignore')
 
     print('--- Done. ---')
     return
 
+
 if __name__ == '__main__':
     gc.enable()
-    engine = sqlite3.connect('./out/sec-8ks.db')
-    OUTDIR = 'out/8Ks'
-    SECDIR = 'https://www.sec.gov/Archives'
-    FILEDIR = os.path.join(os.getcwd(), OUTDIR)
-    if OUTDIR not in os.listdir(os.getcwd()):
-        os.mkdir(path=OUTDIR)
-    firms = pd.read_csv('./out/ciks.csv')
-    TICKERS = firms.ticker.tolist()
-    CIKS = firms.cik.astype(str).tolist()
     main()
