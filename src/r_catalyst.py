@@ -9,6 +9,6 @@ def main():
 
 
 if __name__ == '__main__':
-    ENGINE = sqlite3.connect('./src/data.db')
-    BIOPHARM = './src/bio-data.xlsm'
+    ENGINE = sqlite3.connect('./data.db')
+    BIOPHARM = './bio-data.xlsm'
     main()
