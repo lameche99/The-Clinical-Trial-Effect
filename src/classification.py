@@ -12,6 +12,10 @@ from sklearn.metrics import roc_auc_score, accuracy_score, precision_score, reca
 from sklearn.metrics import auc, roc_curve
 import plotly.express as px
 from sklearn.metrics import confusion_matrix
+import torch.nn as nn
+import torch.nn.functional as F
+import dgl
+
 
 class Results:
    def __init__(self):
@@ -19,7 +23,7 @@ class Results:
 
    def accuracy(self, true, preds):
       return accuracy_score(true, preds)
-   
+
    def calculate_metrics(self, y_test, y_prob, y_pred, model_name):
       auc = roc_auc_score(y_test, y_prob, multi_class='ovr')
       accuracy = accuracy_score(y_test, y_pred)
@@ -37,7 +41,7 @@ class Results:
       }
 
       return pd.Series(results)
-   
+
    def print_confusion_matrix(self, y_test, y_pred, labels):
       cm = confusion_matrix(y_test, y_pred, labels=labels)
 
@@ -136,7 +140,7 @@ class Results:
       # Show the plot
       fig.show()
 
-   def plot_3D_scatter(self, x, y, z, x_label, y_label, z_label, color_lambda=None): 
+   def plot_3D_scatter(self, x, y, z, x_label, y_label, z_label, color_lambda=None):
       fig = go.Figure()
 
       if color_lambda is None:
@@ -175,13 +179,13 @@ class Results:
 class Data_Handler:
    def __init__(self, df):
       self.df = df
-   
+
    def train_test_split(self, target_col, cols2exclude = None, test_size=0.2):
       if cols2exclude is None:
          cols2exclude = target_col
       else:
          cols2exclude.append(target_col)
-      return train_test_split(self.df[self.df.columns.difference(cols2exclude)], self.df[target_col], 
+      return train_test_split(self.df[self.df.columns.difference(cols2exclude)], self.df[target_col],
                                                           test_size=test_size, shuffle=False)
 
    def qcut_data(self, target_col, num_cuts):
@@ -199,7 +203,7 @@ class LR:
    def predict(self, X_test):
       preds = self.model.predict(X_test)
       return preds
-   
+
    def predict_prob(self, X_test):
       probs = self.model.predict_proba(X_test)
       return probs
@@ -215,11 +219,11 @@ class GB:
    def predict(self, X_test):
       preds = self.model.predict(X_test)
       return preds
-   
+
    def predict_prob(self, X_test):
       probs = self.model.predict_proba(X_test)
       return probs
-   
+
 class MLP:
    def __init__(self, hidden_layer_sizes=(100,), activation='relu', solver='adam', alpha=0.0001):
       self.model = MLPClassifier(hidden_layer_sizes=hidden_layer_sizes, activation=activation, solver=solver, alpha=alpha)
@@ -231,7 +235,23 @@ class MLP:
    def predict(self, X_test):
       preds = self.model.predict(X_test)
       return preds
-   
+
    def predict_prob(self, X_test):
       probs = self.model.predict_proba(X_test)
       return probs
+
+
+# class GCN(nn.Module):
+#     def __init__(self, input_dim, hidden_dim, output_dim):
+#         super(GCN, self).__init__()
+#         self.layer1 = dgl.nn.GraphConv(input_dim, hidden_dim)
+#         self.layer2 = dgl.nn.GraphConv(hidden_dim, hidden_dim)
+#         self.fc1 = nn.Linear(hidden_dim, hidden_dim)
+#         self.fc2 = nn.Linear(hidden_dim, output_dim)
+
+#     def forward(self, g, features):
+#         x = F.relu(self.layer1(g, features))
+#         x = F.relu(self.layer2(g, x))
+#         x = F.relu(self.fc1(x))
+#         x = self.fc2(x)
+#         return x
