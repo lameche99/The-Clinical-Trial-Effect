@@ -20,7 +20,7 @@ class NCARS:
       self.period = period
 
    def read_stockdata(self, fpath, extra_data):
-      stock_data = pd.read_csv(fpath, header=[0, 1], index_col=0, parse_dates=True)
+      stock_data = pd.read_csv(fpath, compression='zip', header=[0, 1], index_col=0, parse_dates=True)
       stock_data.index = stock_data.index.date
       if extra_data is not None:
          extra_name = extra_data.name
@@ -88,8 +88,8 @@ class NCARS:
                   xytext=(0.05, 0.05), textcoords='axes fraction')
 
       # Add labels, title, and legend
-      plt.xlabel('X-axis')
-      plt.ylabel('Y-axis')
+      plt.xlabel('Time')
+      plt.ylabel('Value')
       plt.title(ticker)
       plt.legend()
 
@@ -101,10 +101,10 @@ class NCARS:
          prev_series = pd.Series([prev_val])
          preds = pd.concat(objs=[prev_series, preds])
          true_vals = pd.concat(objs=[prev_series, true_vals])
-      pred_ret = ((preds - preds.shift(1))/preds.shift(1))
+      pred_ret = preds.pct_change()
       pred_ret.dropna(inplace=True)
       pred_ret = pred_ret.reset_index(drop=True)
-      true_ret = ((true_vals - true_vals.shift(1))/true_vals.shift(1))
+      true_ret = true_vals.pct_change()
       true_ret.dropna(inplace=True)
       true_ret = true_ret.reset_index(drop=True)
 
@@ -185,6 +185,8 @@ class NCARS:
          ncars.append(ncar)
 
       return pd.Series(ncars)
+
+
 
    
 
