@@ -5,6 +5,8 @@ import plotly.figure_factory as ff
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import GradientBoostingClassifier
+import xgboost as xgb
+from sklearn.model_selection import GridSearchCV
 from sklearn.neural_network import MLPClassifier
 from sklearn.feature_selection import mutual_info_classif
 from sklearn.model_selection import train_test_split
@@ -207,11 +209,29 @@ class LR:
    def predict_prob(self, X_test):
       probs = self.model.predict_proba(X_test)
       return probs
+   
+   def grid_search(self, param_grid, X_train, y_train, cv=3, scoring='accuracy'):
+      grid_search = GridSearchCV(
+         estimator=self.model,
+         param_grid=param_grid,
+         cv=cv,
+         scoring=scoring
+      )
+      grid_search.fit(X_train, y_train)
+      best_params = grid_search.best_params_
+      print("Best Hyperparameters:", best_params)
+      self.model = LogisticRegression(**best_params)
+      self.model.fit(X_train, y_train)
 
-class GB:
+class XGB:
    def __init__(self, n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42):
-      self.model = GradientBoostingClassifier(n_estimators=n_estimators, learning_rate=learning_rate, max_depth=max_depth, random_state=random_state)
+      self.model = xgb.XGBClassifier(
+         n_estimators=n_estimators, 
+         learning_rate=learning_rate, 
+         max_depth=max_depth, 
+         random_state=random_state)
       self.results = Results()
+      self.best_params = None
 
    def train(self, X_train, y_train):
       self.model.fit(X_train, y_train)
@@ -223,6 +243,19 @@ class GB:
    def predict_prob(self, X_test):
       probs = self.model.predict_proba(X_test)
       return probs
+   
+   def grid_search(self, param_grid, X_train, y_train, cv=3, scoring='accuracy'):
+      grid_search = GridSearchCV(
+         estimator=self.model,
+         param_grid=param_grid,
+         cv=cv,
+         scoring=scoring
+      )
+      grid_search.fit(X_train, y_train)
+      best_params = grid_search.best_params_
+      print("Best Hyperparameters:", best_params)
+      self.model = xgb.XGBClassifier(**best_params)
+      self.model.fit(X_train, y_train)
 
 class MLP:
    def __init__(self, hidden_layer_sizes=(100,), activation='relu', solver='adam', alpha=0.0001):
