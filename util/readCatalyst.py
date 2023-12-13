@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlite3
-from util.util_data import cleanCat
+from util_data import cleanCat
 
 def main():
     data_raw = pd.read_excel(BIOPHARM, sheet_name='catalysts', header=None)
@@ -9,6 +9,6 @@ def main():
 
 
 if __name__ == '__main__':
-    ENGINE = sqlite3.connect('./data.db')
-    BIOPHARM = './bio-data.xlsm'
+    ENGINE = sqlite3.connect('./data-src/catalystFDA.db')
+    BIOPHARM = './data-src/bio-data.xlsm'
     main()

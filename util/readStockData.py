@@ -75,7 +75,7 @@ def get_data(client, ticker, start_date, end_date):
    return df #pd.Series(close_prices, index=pd.to_datetime(time_stamps, unit='s'), name=ticker
 
 # Define your API key here
-api_key = 'FuGEoCgmKhdpXJVy7pNqWD_TlARMHuMa'
+api_key = 'Insert API Key'
 
 # Initialize the RESTClient with the API key
 client = RESTClient(api_key)
@@ -88,7 +88,7 @@ ticker_list = read_csv_to_list(tickers_csv_path)
 combined_df = pd.DataFrame()
 
 # Iterate through tickers and retrieve data
-start_date = datetime(2015, 1, 1)
+start_date = datetime(2009, 1, 1)
 end_date = datetime(2023, 10, 1)
 for ticker in ticker_list:
     df = get_data(client, ticker, start_date, end_date)
@@ -98,5 +98,5 @@ for ticker in ticker_list:
 # Sort the DataFrame by its datetime index
 combined_df.sort_index(inplace=True)
 
-# Save the DataFrame to a CSV file
-combined_df.to_csv("stock_data.csv")
+# Save the DataFrame to a CSV file in local because it is too heavy
+combined_df.to_csv("../../stock_data.csv")

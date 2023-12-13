@@ -256,35 +256,3 @@ class XGB:
       print("Best Hyperparameters:", best_params)
       self.model = xgb.XGBClassifier(**best_params)
       self.model.fit(X_train, y_train)
-
-class MLP:
-   def __init__(self, hidden_layer_sizes=(100,), activation='relu', solver='adam', alpha=0.0001):
-      self.model = MLPClassifier(hidden_layer_sizes=hidden_layer_sizes, activation=activation, solver=solver, alpha=alpha)
-      self.results = Results()
-
-   def train(self, X_train, y_train):
-      self.model.fit(X_train, y_train)
-
-   def predict(self, X_test):
-      preds = self.model.predict(X_test)
-      return preds
-
-   def predict_prob(self, X_test):
-      probs = self.model.predict_proba(X_test)
-      return probs
-
-
-# class GCN(nn.Module):
-#     def __init__(self, input_dim, hidden_dim, output_dim):
-#         super(GCN, self).__init__()
-#         self.layer1 = dgl.nn.GraphConv(input_dim, hidden_dim)
-#         self.layer2 = dgl.nn.GraphConv(hidden_dim, hidden_dim)
-#         self.fc1 = nn.Linear(hidden_dim, hidden_dim)
-#         self.fc2 = nn.Linear(hidden_dim, output_dim)
-
-#     def forward(self, g, features):
-#         x = F.relu(self.layer1(g, features))
-#         x = F.relu(self.layer2(g, x))
-#         x = F.relu(self.fc1(x))
-#         x = self.fc2(x)
-#         return x
