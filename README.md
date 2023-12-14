@@ -4,3 +4,7 @@ In this paper we implement a machine learning (ML) framework, combining fine-tun
 
 
 The paper can be found [here](./The-Clinical-Trial-Effect.pdf).
+
+The Hugging Face Model can be found [here](https://huggingface.co/roymgabriel/BioPharma).
+
+The Hugging Face Dataset can be found [here](https://huggingface.co/datasets/roymgabriel/BioPharma).
